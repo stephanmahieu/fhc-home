@@ -2,4 +2,4 @@
 
 ## The main dialog
 
-!(alt text)(./images/MainDialog.png "Main Dialog")
+![The main dialog](./images/MainDialog.png "Main Dialog")
