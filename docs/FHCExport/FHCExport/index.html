@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="S.J. Mahieu">
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>FHC Export - Form History Control (II)</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "FHC Export";
+    var mkdocs_page_input_path = "FHCExport\\FHCExport.md";
+    var mkdocs_page_url = "/FHCExport/FHCExport/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Form History Control (II)</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Manual</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../Manual/manual/">Introduction</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../Manual/FAQ/">Frequently Asked Questions</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../Manual/KnownIssues/">Known Issues</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Release Notes</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../ReleaseNotes/releasenotes/">Release Notes</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">FHC Export</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <a class="current" href="./">FHC Export</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#form-history-export">Form History Export</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#requirements">Requirements</a></li>
+        
+            <li><a class="toctree-l4" href="#download-the-export-application">Download the export application</a></li>
+        
+            <li><a class="toctree-l4" href="#usage">Usage</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../about/">About</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Form History Control (II)</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>FHC Export &raquo;</li>
+        
+      
+    
+    <li>FHC Export</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="form-history-export">Form History Export</h1>
+<p>Standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.</p>
+<h2 id="requirements">Requirements</h2>
+<p>This application requires a Java runtime of at least version 1.8.
+You can check if you already have Java installed by executing the following command from the commandline:</p>
+<pre><code> java -version
+</code></pre>
+<p>If this command is not recognized you most likely have no java runtime installed.
+You can find instructions on how to download and install Java here: https://java.com/nl/download/
+or use the package manager provided by your OS.</p>
+<h2 id="download-the-export-application">Download the export application</h2>
+<p>Download the java application fhcExport-1.0.0.jar from here: <a href="https://github.com/stephanmahieu/fhc-home/raw/master/downloads/fhcExport-1.0.0.jar">fhcExport-1.0.0.jar</a> .</p>
+<p>Put this file in any directory you like, then open a dosbox or a terminal window and go to the directory where you downloaded the file.</p>
+<h2 id="usage">Usage</h2>
+<h3 id="step-1-export-data-from-firefoxs-internal-formhistory-store">Step 1: Export data from Firefox's internal formhistory store</h3>
+<p>From the command-line you can start this java application using the following command:</p>
+<pre><code>java -jar fhcExport-1.0.0.jar
+</code></pre>
+<p>That should display a little help text because you have to add at least one parameter:</p>
+<pre><code> -h,--help                show help.
+ -o,--outputfile &lt;arg&gt;    optional, the path of the outputfile (default:formhistory.xml in current directory)
+ -p,--profile-dir &lt;arg&gt;   required, the Firefox profile directory.
+</code></pre>
+<p>The application needs to know where to find the Firefox database so you have to provide the Firefox profile directory.</p>
+<p>How to find the profile directory is described here: https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data</p>
+<p>For example the profile directory can be something like: C:\Users\John\AppData\Roaming\Mozilla\Firefox\Profiles\jguiwjin.default</p>
+<p>If you know the profile directory you can start the java application and try to export the formhistory data,</p>
+<p>execute the application as follows with your profile directory as parameter:</p>
+<pre><code> java -jar fhcExport-1.0.0.jar -p C:\Users\John\AppData\Roaming\Mozilla\Firefox\Profiles\jguiwjin.default
+</code></pre>
+<p>If everything runs smoothly you should see something like:</p>
+<pre><code>Start formhistory export
+- profile directory: C:\Users\John\AppData\Roaming\Mozilla\Firefox\Profiles\jguiwjin.default/
+- destination file : formhistory.xml
+checking outputfile:        OK
+checking profile directory: OK
+reading inputfields:        2230
+reading multilinefields:    441
+writing data:               OK
+</code></pre>
+<p>You should now have an exportfile named formhistory.xml that you can use to import into the new add-on.</p>
+<p><em>The step reading multilinefields might fail, this is completely normal if you never used this add-on before.
+The export should still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.</em></p>
+<h3 id="step-2-import-the-formhistory-xml-file">Step 2: Import the formhistory xml file:</h3>
+<ul>
+<li>open the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose first item)</li>
+<li>From this dialog, choose File from the Menu on top, then choose Import: an import dialog will open</li>
+<li>Locate and select the formhistory.xml file you created in the first step</li>
+<li>Selecting the xml file will enable the Import button, click this button to start the actual Import</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../about/" class="btn btn-neutral float-right" title="About">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../ReleaseNotes/releasenotes/" class="btn btn-neutral" title="Release Notes"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../ReleaseNotes/releasenotes/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../about/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/require.js"></script>
+      <script src="../../search/search.js"></script>
+
+</body>
+</html>

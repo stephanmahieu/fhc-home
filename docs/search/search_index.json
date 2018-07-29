@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Form History Control (II) Documentation\n\n\nManual\n\n\n\n\nIntroduction\n\n\nFrequently Asked Questions\n\n\nKnown Issues\n\n\n\n\nRelease notes\n\n\n\n\nRelease notes",
+            "text": "Form History Control (II) Documentation\n\n\nManual\n\n\n\n\nIntroduction\n\n\nFrequently Asked Questions\n\n\nKnown Issues\n\n\n\n\nRelease notes\n\n\n\n\nRelease notes\n\n\n\n\nFHC Export\n\n\n\n\nFHC Export",
             "title": "Home"
         },
         {
@@ -19,6 +19,11 @@
             "location": "/#release-notes",
             "text": "Release notes",
             "title": "Release notes"
+        },
+        {
+            "location": "/#fhc-export",
+            "text": "FHC Export",
+            "title": "FHC Export"
         },
         {
             "location": "/Manual/manual/",
@@ -139,6 +144,41 @@
             "location": "/ReleaseNotes/releasenotes/#200-november-12-2017",
             "text": "Complete redesign, WebExtension and Multiprocess compatible",
             "title": "2.0.0 November 12, 2017"
+        },
+        {
+            "location": "/FHCExport/FHCExport/",
+            "text": "Form History Export\n\n\nStandalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.\n\n\nRequirements\n\n\nThis application requires a Java runtime of at least version 1.8.\nYou can check if you already have Java installed by executing the following command from the commandline:\n\n\n java -version\n\n\n\nIf this command is not recognized you most likely have no java runtime installed.\nYou can find instructions on how to download and install Java here: https://java.com/nl/download/\nor use the package manager provided by your OS.\n\n\nDownload the export application\n\n\nDownload the java application fhcExport-1.0.0.jar from here: \nfhcExport-1.0.0.jar\n .\n\n\nPut this file in any directory you like, then open a dosbox or a terminal window and go to the directory where you downloaded the file.\n\n\nUsage\n\n\nStep 1: Export data from Firefox's internal formhistory store\n\n\nFrom the command-line you can start this java application using the following command:\n\n\njava -jar fhcExport-1.0.0.jar\n\n\n\nThat should display a little help text because you have to add at least one parameter:\n\n\n -h,--help                show help.\n -o,--outputfile <arg>    optional, the path of the outputfile (default:formhistory.xml in current directory)\n -p,--profile-dir <arg>   required, the Firefox profile directory.\n\n\n\nThe application needs to know where to find the Firefox database so you have to provide the Firefox profile directory.\n\n\nHow to find the profile directory is described here: https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data\n\n\nFor example the profile directory can be something like: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default\n\n\nIf you know the profile directory you can start the java application and try to export the formhistory data,\n\n\nexecute the application as follows with your profile directory as parameter:\n\n\n java -jar fhcExport-1.0.0.jar -p C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default\n\n\n\nIf everything runs smoothly you should see something like:\n\n\nStart formhistory export\n- profile directory: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default/\n- destination file : formhistory.xml\nchecking outputfile:        OK\nchecking profile directory: OK\nreading inputfields:        2230\nreading multilinefields:    441\nwriting data:               OK\n\n\n\nYou should now have an exportfile named formhistory.xml that you can use to import into the new add-on.\n\n\nThe step reading multilinefields might fail, this is completely normal if you never used this add-on before.\nThe export should still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.\n\n\nStep 2: Import the formhistory xml file:\n\n\n\n\nopen the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose first item)\n\n\nFrom this dialog, choose File from the Menu on top, then choose Import: an import dialog will open\n\n\nLocate and select the formhistory.xml file you created in the first step\n\n\nSelecting the xml file will enable the Import button, click this button to start the actual Import",
+            "title": "FHC Export"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#form-history-export",
+            "text": "Standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.",
+            "title": "Form History Export"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#requirements",
+            "text": "This application requires a Java runtime of at least version 1.8.\nYou can check if you already have Java installed by executing the following command from the commandline:   java -version  If this command is not recognized you most likely have no java runtime installed.\nYou can find instructions on how to download and install Java here: https://java.com/nl/download/\nor use the package manager provided by your OS.",
+            "title": "Requirements"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#download-the-export-application",
+            "text": "Download the java application fhcExport-1.0.0.jar from here:  fhcExport-1.0.0.jar  .  Put this file in any directory you like, then open a dosbox or a terminal window and go to the directory where you downloaded the file.",
+            "title": "Download the export application"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#usage",
+            "text": "",
+            "title": "Usage"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#step-1-export-data-from-firefoxs-internal-formhistory-store",
+            "text": "From the command-line you can start this java application using the following command:  java -jar fhcExport-1.0.0.jar  That should display a little help text because you have to add at least one parameter:   -h,--help                show help.\n -o,--outputfile <arg>    optional, the path of the outputfile (default:formhistory.xml in current directory)\n -p,--profile-dir <arg>   required, the Firefox profile directory.  The application needs to know where to find the Firefox database so you have to provide the Firefox profile directory.  How to find the profile directory is described here: https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data  For example the profile directory can be something like: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default  If you know the profile directory you can start the java application and try to export the formhistory data,  execute the application as follows with your profile directory as parameter:   java -jar fhcExport-1.0.0.jar -p C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default  If everything runs smoothly you should see something like:  Start formhistory export\n- profile directory: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default/\n- destination file : formhistory.xml\nchecking outputfile:        OK\nchecking profile directory: OK\nreading inputfields:        2230\nreading multilinefields:    441\nwriting data:               OK  You should now have an exportfile named formhistory.xml that you can use to import into the new add-on.  The step reading multilinefields might fail, this is completely normal if you never used this add-on before.\nThe export should still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.",
+            "title": "Step 1: Export data from Firefox's internal formhistory store"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#step-2-import-the-formhistory-xml-file",
+            "text": "open the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose first item)  From this dialog, choose File from the Menu on top, then choose Import: an import dialog will open  Locate and select the formhistory.xml file you created in the first step  Selecting the xml file will enable the Import button, click this button to start the actual Import",
+            "title": "Step 2: Import the formhistory xml file:"
         },
         {
             "location": "/about/",

@@ -12,4 +12,6 @@ pages:
   - Known Issues: Manual\KnownIssues.md
 - Release Notes:
   - Release Notes: ReleaseNotes\releasenotes.md
+- FHC Export:
+  - FHC Export: FHCExport\FHCExport.md
 - About: about.md
