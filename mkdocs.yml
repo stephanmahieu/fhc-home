@@ -1,0 +1,9 @@
+site_name: Form History Control (II)
+docs_dir: docsource
+site_dir: docs
+theme: readthedocs
+pages:
+- Home: index.md
+- Manual:
+  - Overview: Manual\manual.md
+- About: about.md

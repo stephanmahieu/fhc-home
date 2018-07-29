@@ -1,0 +1,49 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Form History Control (II) Documentation\n\n\nManual\n\n\n\n\nUser manual",
+            "title": "Home"
+        },
+        {
+            "location": "/#form-history-control-ii-documentation",
+            "text": "",
+            "title": "Form History Control (II) Documentation"
+        },
+        {
+            "location": "/#manual",
+            "text": "User manual",
+            "title": "Manual"
+        },
+        {
+            "location": "/Manual/manual/",
+            "text": "Manual\n\n\nThe main dialog\n\n\n!(alt text)(./images/MainDialog.png \"Main Dialog\")",
+            "title": "Overview"
+        },
+        {
+            "location": "/Manual/manual/#manual",
+            "text": "",
+            "title": "Manual"
+        },
+        {
+            "location": "/Manual/manual/#the-main-dialog",
+            "text": "!(alt text)(./images/MainDialog.png \"Main Dialog\")",
+            "title": "The main dialog"
+        },
+        {
+            "location": "/about/",
+            "text": "About Form History Control (II)\n\n\nDescription\n\n\nManage form history entries (search, edit, cleanup, export/import) and easy text formfiller, now Multiprocess (e10s) and WebExtensions compatible!",
+            "title": "About"
+        },
+        {
+            "location": "/about/#about-form-history-control-ii",
+            "text": "",
+            "title": "About Form History Control (II)"
+        },
+        {
+            "location": "/about/#description",
+            "text": "Manage form history entries (search, edit, cleanup, export/import) and easy text formfiller, now Multiprocess (e10s) and WebExtensions compatible!",
+            "title": "Description"
+        }
+    ]
+}
