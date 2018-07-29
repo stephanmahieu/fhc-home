@@ -1,4 +1,7 @@
-# Manual
+# Introduction
+
+## Two ways of opening the application
+
 
 ## The main dialog
 

@@ -11,6 +11,21 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>/Manual/FAQ/</loc>
+     <lastmod>2018-07-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>/Manual/KnownIssues/</loc>
+     <lastmod>2018-07-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>/ReleaseNotes/releasenotes/</loc>
+     <lastmod>2018-07-29</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>/about/</loc>
      <lastmod>2018-07-29</lastmod>
      <changefreq>daily</changefreq>

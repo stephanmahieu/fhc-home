@@ -1,4 +1,8 @@
 # Form History Control (II) Documentation
 
 ### Manual
-- [User manual](Manual/manual.md)
+- [Introduction](Manual/manual.md)
+- [Frequently Asked Questions](Manual/FAQ.md)
+- [Known Issues](Manual/KnownIssues.md)
+### Release notes
+- [Release notes](ReleaseNotes/releasenotes.md)

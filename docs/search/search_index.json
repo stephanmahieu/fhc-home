@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Form History Control (II) Documentation\n\n\nManual\n\n\n\n\nUser manual",
+            "text": "Form History Control (II) Documentation\n\n\nManual\n\n\n\n\nIntroduction\n\n\nFrequently Asked Questions\n\n\nKnown Issues\n\n\n\n\nRelease notes\n\n\n\n\nRelease notes",
             "title": "Home"
         },
         {
@@ -12,23 +12,133 @@
         },
         {
             "location": "/#manual",
-            "text": "User manual",
+            "text": "Introduction  Frequently Asked Questions  Known Issues",
             "title": "Manual"
+        },
+        {
+            "location": "/#release-notes",
+            "text": "Release notes",
+            "title": "Release notes"
         },
         {
             "location": "/Manual/manual/",
-            "text": "Manual\n\n\nThe main dialog",
-            "title": "Overview"
+            "text": "Introduction\n\n\nTwo ways of opening the application\n\n\nThe main dialog",
+            "title": "Introduction"
         },
         {
-            "location": "/Manual/manual/#manual",
+            "location": "/Manual/manual/#introduction",
             "text": "",
-            "title": "Manual"
+            "title": "Introduction"
+        },
+        {
+            "location": "/Manual/manual/#two-ways-of-opening-the-application",
+            "text": "",
+            "title": "Two ways of opening the application"
         },
         {
             "location": "/Manual/manual/#the-main-dialog",
             "text": "",
             "title": "The main dialog"
+        },
+        {
+            "location": "/Manual/FAQ/",
+            "text": "Frequently Asked Questions (FAQ)\n\n\n\n\nwork in progress...",
+            "title": "Frequently Asked Questions"
+        },
+        {
+            "location": "/Manual/FAQ/#frequently-asked-questions-faq",
+            "text": "work in progress...",
+            "title": "Frequently Asked Questions (FAQ)"
+        },
+        {
+            "location": "/Manual/KnownIssues/",
+            "text": "Known Issues\n\n\n\n\nwork in progress",
+            "title": "Known Issues"
+        },
+        {
+            "location": "/Manual/KnownIssues/#known-issues",
+            "text": "work in progress",
+            "title": "Known Issues"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/",
+            "text": "Release Notes\n\n\n2.0.3.2 December 22, 2017\n\n\n\n\nBugfix: remove prematurely (incomplete) option features\n\n\n\n\n2.0.3.1 December 22, 2017\n\n\n\n\nUpdate German translation (datatables.json)\n\n\n\n\n2.0.3.0 December 20, 2017\n\n\n\n\nAdded German translation\n\n\n\n\n2.0.2.5 December 16, 2017\n\n\n\n\nBugfix 2 for not showing content in popup windows on some OS's and slow pc's (multiple attempts to restore content)\n\n\nBugfix missing first letter of About window title\n\n\n\n\n2.0.2.4 December 15, 2017\n\n\n\n\nBugfix for not showing content in popup windows on some OS's\n\n\n\n\n2.0.2.3 December 7, 2017\n\n\n\n\nDisplay an error message when there is a problem with database permission\n\n\nHide URL column in small popup tableview to prevent messed up layout (remains searchable)\n\n\n\n\n2.0.2.2 November 21, 2017\n\n\n\n\nTweak column widths in small datatable popup to prevent messed up layout\n\n\nHold page position when updating and redrawing age in datatable\n\n\nRename Wiky.js -> wiky.js (fix wiki preview in entryview)\n\n\nSmall increase (50px) entryview width\n\n\n\n\n2.0.2.1 November 21, 2017\n\n\n\n\nBugfix: limit size of columns and preview in the small popup panel)\n\n\n\n\n2.0.2.0 November 21, 2017\n\n\n\n\nAdd url to the tableview, searching now includes the url\n\n\nAdded Markdown, Wiki and Text preview to entryview\n\n\nRemove inline styles when converting html to readable text\n\n\nEscape tooltip text in datatable view (fix values sometimes exceeding max length value column)\n\n\n\n\n2.0.1.0 November 20, 2017\n\n\n\n\nAdd additional clickable icons to the small popup\n\n\nCopy text to clipboard now preserves HTML formatting\n\n\nHide HTML tags from tableview, show readable text only\n\n\nBugfix restore editor field contextmenu:\n\n\nshow international chars\n\n\nsort hostname matches by date\n\n\nexclude hostname matches from recent used\n\n\n\n\n\n\nFix close button preference dialog not always visible\n\n\n\n\n2.0.0.3 November 15, 2017\n\n\n\n\nShow all data in the left-click popup dialog instead of just the fields for the active page (more intuitive)\n\n\nSet the override-automplete preference default to false\n\n\n\n\n2.0.0.2 November 14, 2017\n\n\n\n\nFixed issue where text entered in dynamically generated input forms (like gmail) was not detected\n\n\n\n\n2.0.0.1 November 13, 2017\n\n\n\n\nBump version to 4 digits to comply with old (non-WebExtension) version\n\n\n\n\n2.0.0 November 12, 2017\n\n\n\n\nComplete redesign, WebExtension and Multiprocess compatible",
+            "title": "Release Notes"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#release-notes",
+            "text": "",
+            "title": "Release Notes"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2032-december-22-2017",
+            "text": "Bugfix: remove prematurely (incomplete) option features",
+            "title": "2.0.3.2 December 22, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2031-december-22-2017",
+            "text": "Update German translation (datatables.json)",
+            "title": "2.0.3.1 December 22, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2030-december-20-2017",
+            "text": "Added German translation",
+            "title": "2.0.3.0 December 20, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2025-december-16-2017",
+            "text": "Bugfix 2 for not showing content in popup windows on some OS's and slow pc's (multiple attempts to restore content)  Bugfix missing first letter of About window title",
+            "title": "2.0.2.5 December 16, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2024-december-15-2017",
+            "text": "Bugfix for not showing content in popup windows on some OS's",
+            "title": "2.0.2.4 December 15, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2023-december-7-2017",
+            "text": "Display an error message when there is a problem with database permission  Hide URL column in small popup tableview to prevent messed up layout (remains searchable)",
+            "title": "2.0.2.3 December 7, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2022-november-21-2017",
+            "text": "Tweak column widths in small datatable popup to prevent messed up layout  Hold page position when updating and redrawing age in datatable  Rename Wiky.js -> wiky.js (fix wiki preview in entryview)  Small increase (50px) entryview width",
+            "title": "2.0.2.2 November 21, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2021-november-21-2017",
+            "text": "Bugfix: limit size of columns and preview in the small popup panel)",
+            "title": "2.0.2.1 November 21, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2020-november-21-2017",
+            "text": "Add url to the tableview, searching now includes the url  Added Markdown, Wiki and Text preview to entryview  Remove inline styles when converting html to readable text  Escape tooltip text in datatable view (fix values sometimes exceeding max length value column)",
+            "title": "2.0.2.0 November 21, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2010-november-20-2017",
+            "text": "Add additional clickable icons to the small popup  Copy text to clipboard now preserves HTML formatting  Hide HTML tags from tableview, show readable text only  Bugfix restore editor field contextmenu:  show international chars  sort hostname matches by date  exclude hostname matches from recent used    Fix close button preference dialog not always visible",
+            "title": "2.0.1.0 November 20, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2003-november-15-2017",
+            "text": "Show all data in the left-click popup dialog instead of just the fields for the active page (more intuitive)  Set the override-automplete preference default to false",
+            "title": "2.0.0.3 November 15, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2002-november-14-2017",
+            "text": "Fixed issue where text entered in dynamically generated input forms (like gmail) was not detected",
+            "title": "2.0.0.2 November 14, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#2001-november-13-2017",
+            "text": "Bump version to 4 digits to comply with old (non-WebExtension) version",
+            "title": "2.0.0.1 November 13, 2017"
+        },
+        {
+            "location": "/ReleaseNotes/releasenotes/#200-november-12-2017",
+            "text": "Complete redesign, WebExtension and Multiprocess compatible",
+            "title": "2.0.0 November 12, 2017"
         },
         {
             "location": "/about/",

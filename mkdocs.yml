@@ -1,9 +1,15 @@
 site_name: Form History Control (II)
+site_author: S.J. Mahieu
+copyright:
 docs_dir: docsource
 site_dir: docs
 theme: readthedocs
 pages:
 - Home: index.md
 - Manual:
-  - Overview: Manual\manual.md
+  - Introduction: Manual\manual.md
+  - Frequently Asked Questions: Manual\FAQ.md
+  - Known Issues: Manual\KnownIssues.md
+- Release Notes:
+  - Release Notes: ReleaseNotes\releasenotes.md
 - About: about.md
