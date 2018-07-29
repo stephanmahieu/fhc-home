@@ -17,7 +17,7 @@
         },
         {
             "location": "/Manual/manual/",
-            "text": "Manual\n\n\nThe main dialog\n\n\n!(alt text)(./images/MainDialog.png \"Main Dialog\")",
+            "text": "Manual\n\n\nThe main dialog",
             "title": "Overview"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "location": "/Manual/manual/#the-main-dialog",
-            "text": "!(alt text)(./images/MainDialog.png \"Main Dialog\")",
+            "text": "",
             "title": "The main dialog"
         },
         {
