@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Form History Control (II) Documentation\n\n\nManual\n\n\n\n\nIntroduction\n\n\nFrequently Asked Questions\n\n\nKnown Issues\n\n\n\n\nRelease notes\n\n\n\n\nRelease notes\n\n\n\n\nFHC Export\n\n\n\n\nFHC Export",
+            "text": "Form History Control (II) Documentation\n\n\nManual\n\n\n\n\nIntroduction\n\n\nFrequently Asked Questions\n\n\nKnown Issues\n\n\n\n\nFHC Export\n\n\n\n\nFHC Export\n\n\n\n\nRelease notes\n\n\n\n\nRelease notes",
             "title": "Home"
         },
         {
@@ -16,14 +16,14 @@
             "title": "Manual"
         },
         {
-            "location": "/#release-notes",
-            "text": "Release notes",
-            "title": "Release notes"
-        },
-        {
             "location": "/#fhc-export",
             "text": "FHC Export",
             "title": "FHC Export"
+        },
+        {
+            "location": "/#release-notes",
+            "text": "Release notes",
+            "title": "Release notes"
         },
         {
             "location": "/Manual/manual/",
@@ -66,14 +66,49 @@
             "title": "Known Issues"
         },
         {
+            "location": "/FHCExport/FHCExport/",
+            "text": "Form History Export\n\n\nThis ia a standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.\n\n\nRequirements\n\n\nThis application requires a Java runtime of at least version 1.8.\nYou can check if you already have Java installed by executing the following command from the commandline:\n\n\n java -version\n\n\n\nIf this command is not recognized you most likely have no java runtime installed.\nYou can find instructions on how to download and install Java here: https://java.com/nl/download/\nor use the package manager provided by your OS.\n\n\nDownload the export application\n\n\nDownload the java application fhcExport-1.0.0.jar from here: \nfhcExport-1.0.0.jar\n .\n\n\nPut this file in any directory you like, then open a dosbox or a terminal window and go to the directory where you downloaded the file.\nStart the application from the commandline using the -jar option (see the Usage section).\n\n\nUsage\n\n\nStep 1: Export data from Firefox's internal formhistory store\n\n\nFrom the command-line you can start this java application using the following command:\n\n\njava -jar fhcExport-1.0.0.jar\n\n\n\nThat should display a little help text because you have to add at least one parameter:\n\n\n -h,--help                show help.\n -o,--outputfile <arg>    optional, the path of the outputfile (default:formhistory.xml in current directory)\n -p,--profile-dir <arg>   required, the Firefox profile directory.\n\n\n\nThe application needs to know where to find the Firefox database so you have to provide the Firefox profile directory.\n\n\nHow to find the profile directory is described here: https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data\n\n\nFor example the profile directory can be something like: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default\n\n\nIf you know the profile directory you can start the java application and try to export the formhistory data,\n\n\nexecute the application as follows with your profile directory as parameter:\n\n\n java -jar fhcExport-1.0.0.jar -p C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default\n\n\n\nIf everything runs smoothly you should see something like:\n\n\nStart formhistory export\n- profile directory: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default/\n- destination file : formhistory.xml\nchecking outputfile:        OK\nchecking profile directory: OK\nreading inputfields:        2230\nreading multilinefields:    441\nwriting data:               OK\n\n\n\nYou should now have an exportfile named formhistory.xml that you can use to import into the new add-on.\n\n\nThe step reading multilinefields might fail, this is completely normal if you never used this add-on before.\nThe export should still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.\n\n\nStep 2: Import the formhistory xml file:\n\n\n\n\nopen the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose first item)\n\n\nFrom this dialog, choose File from the Menu on top, then choose Import: an import dialog will open\n\n\nLocate and select the formhistory.xml file you created in the first step\n\n\nSelecting the xml file will enable the Import button, click this button to start the actual Import",
+            "title": "FHC Export"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#form-history-export",
+            "text": "This ia a standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.",
+            "title": "Form History Export"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#requirements",
+            "text": "This application requires a Java runtime of at least version 1.8.\nYou can check if you already have Java installed by executing the following command from the commandline:   java -version  If this command is not recognized you most likely have no java runtime installed.\nYou can find instructions on how to download and install Java here: https://java.com/nl/download/\nor use the package manager provided by your OS.",
+            "title": "Requirements"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#download-the-export-application",
+            "text": "Download the java application fhcExport-1.0.0.jar from here:  fhcExport-1.0.0.jar  .  Put this file in any directory you like, then open a dosbox or a terminal window and go to the directory where you downloaded the file.\nStart the application from the commandline using the -jar option (see the Usage section).",
+            "title": "Download the export application"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#usage",
+            "text": "",
+            "title": "Usage"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#step-1-export-data-from-firefoxs-internal-formhistory-store",
+            "text": "From the command-line you can start this java application using the following command:  java -jar fhcExport-1.0.0.jar  That should display a little help text because you have to add at least one parameter:   -h,--help                show help.\n -o,--outputfile <arg>    optional, the path of the outputfile (default:formhistory.xml in current directory)\n -p,--profile-dir <arg>   required, the Firefox profile directory.  The application needs to know where to find the Firefox database so you have to provide the Firefox profile directory.  How to find the profile directory is described here: https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data  For example the profile directory can be something like: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default  If you know the profile directory you can start the java application and try to export the formhistory data,  execute the application as follows with your profile directory as parameter:   java -jar fhcExport-1.0.0.jar -p C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default  If everything runs smoothly you should see something like:  Start formhistory export\n- profile directory: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default/\n- destination file : formhistory.xml\nchecking outputfile:        OK\nchecking profile directory: OK\nreading inputfields:        2230\nreading multilinefields:    441\nwriting data:               OK  You should now have an exportfile named formhistory.xml that you can use to import into the new add-on.  The step reading multilinefields might fail, this is completely normal if you never used this add-on before.\nThe export should still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.",
+            "title": "Step 1: Export data from Firefox's internal formhistory store"
+        },
+        {
+            "location": "/FHCExport/FHCExport/#step-2-import-the-formhistory-xml-file",
+            "text": "open the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose first item)  From this dialog, choose File from the Menu on top, then choose Import: an import dialog will open  Locate and select the formhistory.xml file you created in the first step  Selecting the xml file will enable the Import button, click this button to start the actual Import",
+            "title": "Step 2: Import the formhistory xml file:"
+        },
+        {
             "location": "/ReleaseNotes/releasenotes/",
-            "text": "Release Notes\n\n\n2.0.3.2 December 22, 2017\n\n\n\n\nBugfix: remove prematurely (incomplete) option features\n\n\n\n\n2.0.3.1 December 22, 2017\n\n\n\n\nUpdate German translation (datatables.json)\n\n\n\n\n2.0.3.0 December 20, 2017\n\n\n\n\nAdded German translation\n\n\n\n\n2.0.2.5 December 16, 2017\n\n\n\n\nBugfix 2 for not showing content in popup windows on some OS's and slow pc's (multiple attempts to restore content)\n\n\nBugfix missing first letter of About window title\n\n\n\n\n2.0.2.4 December 15, 2017\n\n\n\n\nBugfix for not showing content in popup windows on some OS's\n\n\n\n\n2.0.2.3 December 7, 2017\n\n\n\n\nDisplay an error message when there is a problem with database permission\n\n\nHide URL column in small popup tableview to prevent messed up layout (remains searchable)\n\n\n\n\n2.0.2.2 November 21, 2017\n\n\n\n\nTweak column widths in small datatable popup to prevent messed up layout\n\n\nHold page position when updating and redrawing age in datatable\n\n\nRename Wiky.js -> wiky.js (fix wiki preview in entryview)\n\n\nSmall increase (50px) entryview width\n\n\n\n\n2.0.2.1 November 21, 2017\n\n\n\n\nBugfix: limit size of columns and preview in the small popup panel)\n\n\n\n\n2.0.2.0 November 21, 2017\n\n\n\n\nAdd url to the tableview, searching now includes the url\n\n\nAdded Markdown, Wiki and Text preview to entryview\n\n\nRemove inline styles when converting html to readable text\n\n\nEscape tooltip text in datatable view (fix values sometimes exceeding max length value column)\n\n\n\n\n2.0.1.0 November 20, 2017\n\n\n\n\nAdd additional clickable icons to the small popup\n\n\nCopy text to clipboard now preserves HTML formatting\n\n\nHide HTML tags from tableview, show readable text only\n\n\nBugfix restore editor field contextmenu:\n\n\nshow international chars\n\n\nsort hostname matches by date\n\n\nexclude hostname matches from recent used\n\n\n\n\n\n\nFix close button preference dialog not always visible\n\n\n\n\n2.0.0.3 November 15, 2017\n\n\n\n\nShow all data in the left-click popup dialog instead of just the fields for the active page (more intuitive)\n\n\nSet the override-automplete preference default to false\n\n\n\n\n2.0.0.2 November 14, 2017\n\n\n\n\nFixed issue where text entered in dynamically generated input forms (like gmail) was not detected\n\n\n\n\n2.0.0.1 November 13, 2017\n\n\n\n\nBump version to 4 digits to comply with old (non-WebExtension) version\n\n\n\n\n2.0.0 November 12, 2017\n\n\n\n\nComplete redesign, WebExtension and Multiprocess compatible",
+            "text": "Form History Control - Release Notes\n\n\n2.0.3.2 December 22, 2017\n\n\n\n\nBugfix: remove prematurely (incomplete) option features\n\n\n\n\n2.0.3.1 December 22, 2017\n\n\n\n\nUpdate German translation (datatables.json)\n\n\n\n\n2.0.3.0 December 20, 2017\n\n\n\n\nAdded German translation\n\n\n\n\n2.0.2.5 December 16, 2017\n\n\n\n\nBugfix 2 for not showing content in popup windows on some OS's and slow pc's (multiple attempts to restore content)\n\n\nBugfix missing first letter of About window title\n\n\n\n\n2.0.2.4 December 15, 2017\n\n\n\n\nBugfix for not showing content in popup windows on some OS's\n\n\n\n\n2.0.2.3 December 7, 2017\n\n\n\n\nDisplay an error message when there is a problem with database permission\n\n\nHide URL column in small popup tableview to prevent messed up layout (remains searchable)\n\n\n\n\n2.0.2.2 November 21, 2017\n\n\n\n\nTweak column widths in small datatable popup to prevent messed up layout\n\n\nHold page position when updating and redrawing age in datatable\n\n\nRename Wiky.js -> wiky.js (fix wiki preview in entryview)\n\n\nSmall increase (50px) entryview width\n\n\n\n\n2.0.2.1 November 21, 2017\n\n\n\n\nBugfix: limit size of columns and preview in the small popup panel)\n\n\n\n\n2.0.2.0 November 21, 2017\n\n\n\n\nAdd url to the tableview, searching now includes the url\n\n\nAdded Markdown, Wiki and Text preview to entryview\n\n\nRemove inline styles when converting html to readable text\n\n\nEscape tooltip text in datatable view (fix values sometimes exceeding max length value column)\n\n\n\n\n2.0.1.0 November 20, 2017\n\n\n\n\nAdd additional clickable icons to the small popup\n\n\nCopy text to clipboard now preserves HTML formatting\n\n\nHide HTML tags from tableview, show readable text only\n\n\nBugfix restore editor field contextmenu:\n\n\nshow international chars\n\n\nsort hostname matches by date\n\n\nexclude hostname matches from recent used\n\n\n\n\n\n\nFix close button preference dialog not always visible\n\n\n\n\n2.0.0.3 November 15, 2017\n\n\n\n\nShow all data in the left-click popup dialog instead of just the fields for the active page (more intuitive)\n\n\nSet the override-automplete preference default to false\n\n\n\n\n2.0.0.2 November 14, 2017\n\n\n\n\nFixed issue where text entered in dynamically generated input forms (like gmail) was not detected\n\n\n\n\n2.0.0.1 November 13, 2017\n\n\n\n\nBump version to 4 digits to comply with old (non-WebExtension) version\n\n\n\n\n2.0.0 November 12, 2017\n\n\n\n\nComplete redesign, WebExtension and Multiprocess compatible",
             "title": "Release Notes"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#release-notes",
+            "location": "/ReleaseNotes/releasenotes/#form-history-control-release-notes",
             "text": "",
-            "title": "Release Notes"
+            "title": "Form History Control - Release Notes"
         },
         {
             "location": "/ReleaseNotes/releasenotes/#2032-december-22-2017",
@@ -144,41 +179,6 @@
             "location": "/ReleaseNotes/releasenotes/#200-november-12-2017",
             "text": "Complete redesign, WebExtension and Multiprocess compatible",
             "title": "2.0.0 November 12, 2017"
-        },
-        {
-            "location": "/FHCExport/FHCExport/",
-            "text": "Form History Export\n\n\nStandalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.\n\n\nRequirements\n\n\nThis application requires a Java runtime of at least version 1.8.\nYou can check if you already have Java installed by executing the following command from the commandline:\n\n\n java -version\n\n\n\nIf this command is not recognized you most likely have no java runtime installed.\nYou can find instructions on how to download and install Java here: https://java.com/nl/download/\nor use the package manager provided by your OS.\n\n\nDownload the export application\n\n\nDownload the java application fhcExport-1.0.0.jar from here: \nfhcExport-1.0.0.jar\n .\n\n\nPut this file in any directory you like, then open a dosbox or a terminal window and go to the directory where you downloaded the file.\n\n\nUsage\n\n\nStep 1: Export data from Firefox's internal formhistory store\n\n\nFrom the command-line you can start this java application using the following command:\n\n\njava -jar fhcExport-1.0.0.jar\n\n\n\nThat should display a little help text because you have to add at least one parameter:\n\n\n -h,--help                show help.\n -o,--outputfile <arg>    optional, the path of the outputfile (default:formhistory.xml in current directory)\n -p,--profile-dir <arg>   required, the Firefox profile directory.\n\n\n\nThe application needs to know where to find the Firefox database so you have to provide the Firefox profile directory.\n\n\nHow to find the profile directory is described here: https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data\n\n\nFor example the profile directory can be something like: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default\n\n\nIf you know the profile directory you can start the java application and try to export the formhistory data,\n\n\nexecute the application as follows with your profile directory as parameter:\n\n\n java -jar fhcExport-1.0.0.jar -p C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default\n\n\n\nIf everything runs smoothly you should see something like:\n\n\nStart formhistory export\n- profile directory: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default/\n- destination file : formhistory.xml\nchecking outputfile:        OK\nchecking profile directory: OK\nreading inputfields:        2230\nreading multilinefields:    441\nwriting data:               OK\n\n\n\nYou should now have an exportfile named formhistory.xml that you can use to import into the new add-on.\n\n\nThe step reading multilinefields might fail, this is completely normal if you never used this add-on before.\nThe export should still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.\n\n\nStep 2: Import the formhistory xml file:\n\n\n\n\nopen the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose first item)\n\n\nFrom this dialog, choose File from the Menu on top, then choose Import: an import dialog will open\n\n\nLocate and select the formhistory.xml file you created in the first step\n\n\nSelecting the xml file will enable the Import button, click this button to start the actual Import",
-            "title": "FHC Export"
-        },
-        {
-            "location": "/FHCExport/FHCExport/#form-history-export",
-            "text": "Standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.",
-            "title": "Form History Export"
-        },
-        {
-            "location": "/FHCExport/FHCExport/#requirements",
-            "text": "This application requires a Java runtime of at least version 1.8.\nYou can check if you already have Java installed by executing the following command from the commandline:   java -version  If this command is not recognized you most likely have no java runtime installed.\nYou can find instructions on how to download and install Java here: https://java.com/nl/download/\nor use the package manager provided by your OS.",
-            "title": "Requirements"
-        },
-        {
-            "location": "/FHCExport/FHCExport/#download-the-export-application",
-            "text": "Download the java application fhcExport-1.0.0.jar from here:  fhcExport-1.0.0.jar  .  Put this file in any directory you like, then open a dosbox or a terminal window and go to the directory where you downloaded the file.",
-            "title": "Download the export application"
-        },
-        {
-            "location": "/FHCExport/FHCExport/#usage",
-            "text": "",
-            "title": "Usage"
-        },
-        {
-            "location": "/FHCExport/FHCExport/#step-1-export-data-from-firefoxs-internal-formhistory-store",
-            "text": "From the command-line you can start this java application using the following command:  java -jar fhcExport-1.0.0.jar  That should display a little help text because you have to add at least one parameter:   -h,--help                show help.\n -o,--outputfile <arg>    optional, the path of the outputfile (default:formhistory.xml in current directory)\n -p,--profile-dir <arg>   required, the Firefox profile directory.  The application needs to know where to find the Firefox database so you have to provide the Firefox profile directory.  How to find the profile directory is described here: https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data  For example the profile directory can be something like: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default  If you know the profile directory you can start the java application and try to export the formhistory data,  execute the application as follows with your profile directory as parameter:   java -jar fhcExport-1.0.0.jar -p C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default  If everything runs smoothly you should see something like:  Start formhistory export\n- profile directory: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default/\n- destination file : formhistory.xml\nchecking outputfile:        OK\nchecking profile directory: OK\nreading inputfields:        2230\nreading multilinefields:    441\nwriting data:               OK  You should now have an exportfile named formhistory.xml that you can use to import into the new add-on.  The step reading multilinefields might fail, this is completely normal if you never used this add-on before.\nThe export should still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.",
-            "title": "Step 1: Export data from Firefox's internal formhistory store"
-        },
-        {
-            "location": "/FHCExport/FHCExport/#step-2-import-the-formhistory-xml-file",
-            "text": "open the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose first item)  From this dialog, choose File from the Menu on top, then choose Import: an import dialog will open  Locate and select the formhistory.xml file you created in the first step  Selecting the xml file will enable the Import button, click this button to start the actual Import",
-            "title": "Step 2: Import the formhistory xml file:"
         },
         {
             "location": "/about/",
