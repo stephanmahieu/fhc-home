@@ -9,5 +9,15 @@ The github pages url is: https://stephanmahieu.github.io/fhc-home/
 ## docsource
 The directory containing the documentation source markdown files.
 
+### Generate the site
+From the same directory as the mkdocs.yml configuration file:
+
+     mkdocs build --clean
+
+### Test the site locally
+From the same directory as the mkdocs.yml configuration file:
+
+     mkdocs serve -a localhost:8080
+
 ## downloads
-This is where I store binaries that are made available for download.
+This is where binaries are stored that are made available for download.
