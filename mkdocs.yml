@@ -1,16 +1,44 @@
+# Project information
 site_name: Form History Control (II)
 site_author: S.J. Mahieu
-copyright:
+
+# Copyright
+copyright: Copyright &copy; 2018 Stephan Mahieu
+
+# Configuration
 docs_dir: docsource
 site_dir: docs
-theme: readthedocs
+theme:
+    name: material
+    language: en
+    custom_dir: custom_theme
+    # feature:
+    #     tabs: true
+    logo: assets/images/fhc_icon.svg
+    palette:
+        primary: 'indigo'
+        accent: 'indigo'
+    font:
+        text: 'Roboto'
+        code: 'Roboto Mono'
+
+# Customization
+extra:
+    social:
+    - type: github
+      link: https://github.com/stephanmahieu/formhistorycontrol-2
+    - type: firefox
+      link: https://addons.mozilla.org/firefox/addon/form-history-control?src=github-pages
+    # - type: linkedin
+    #  link: https://linkedin.com/in/stephanm/
+
+# Page structure
 pages:
 - Home: index.md
 - Manual:
   - Introduction: Manual\manual.md
   - Frequently Asked Questions: Manual\FAQ.md
   - Known Issues: Manual\KnownIssues.md
-- FHC Export:
-  - FHC Export: FHCExport\FHCExport.md
+- FHC Export: FHCExport.md
 - Release Notes: ReleaseNotes\releasenotes.md
 - About: about.md
