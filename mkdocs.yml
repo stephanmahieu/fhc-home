@@ -42,5 +42,5 @@ pages:
   - Frequently Asked Questions: Manual\FAQ.md
   - Known Issues: Manual\KnownIssues.md
 - FHC Export: FHCExport.md
-- Release Notes: ReleaseNotes\releasenotes.md
+- Release Notes: ReleaseNotes\fhc-releasenotes.md
 - About: about.md
