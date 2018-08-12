@@ -80,7 +80,8 @@ Use the preferences window to manage various options that alter the behaviour of
 
 ![The Preferences](./images/Preferences.png "Preferences")
 
-There are multiple ways to open the preferences dialog.
+There are multiple ways to open the preferences dialog:
+
 - Right-click on the FHC toolbar icon will show a context menu, under submenu 'more..' you find a preferences options.
 - From the main dialog or thge popdown dialog, the little cog icon on the top right hand corner will also open the
   preferences dialog.
