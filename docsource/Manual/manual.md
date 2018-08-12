@@ -121,7 +121,7 @@ Open the Export dialog from the File submenu in the menu-bar of [The main dialog
 ![The Contextmenu](./images/Export.png "Export")
 
 After the Export dialog is opened, activate the Export button. Due to browser safety restrictions the file will not be
-save automatically. If the formhistory store is not empty the dialog will display the number of fields it has prepared
+saved automatically. If the formhistory store is not empty the dialog will display the number of fields it has prepared
 for export and show a clickable download link.
 
 In order to save the file click on the download link, the browser will then give you the option to either save or open
@@ -132,7 +132,7 @@ Open the Import dialog from the File submenu in the menu-bar of [The main dialog
 
 ![The Contextmenu](./images/Import.png "Import")
 
-Click the browse button and open a previous saved export file. Files exported from older versions of
+Click the browse button and open a previously saved export file. XML-Files exported from older versions of
 Form History Control are supported. 
 
 After choosing the file hit the Import button. Duplicate fields already present will not be imported.
@@ -142,7 +142,7 @@ When the import succeeds, the dialog will display the amount of text-fields and 
 ## View / Edit entries
 
 By double clicking on a formhistory item in the list or by choosing modify or add from the menu, a dialog will appear
-offering more details to either modify or add various aspects of a formhistory item..
+offering more details to either modify or add various aspects of a formhistory item.
 
 ### View entry
 Displays all aspects stored for a particular entry.
@@ -150,7 +150,7 @@ Displays all aspects stored for a particular entry.
 ![The Contextmenu](./images/EditEntryContextmenu.png "Edit Entry Contextmenu")
 
 Right-clicking will reveal a context-menu offering the option top either copy only the clean text from a value or the
-raw value itself including any markup information it may contain.
+raw value including any markup information it may contain.
 
 Radio-boxes at the bottom make it possible to render a preview according to different formats like HTML, Markdown or Wiki. 
 
@@ -164,5 +164,5 @@ Cnange any value you like,
 
 ![The Contextmenu](./images/EditEntry.png "Edit Entry")
 
-When multiple items are selected the edit dialog will initially display empty fields and only the count and dates cab be changed.
+When multiple items are selected the edit dialog will initially display empty fields and only the count and dates can be changed.
 The title on top of the dialog will inform you that you are about to change multiple items at once.
