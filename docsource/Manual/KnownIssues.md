@@ -1,7 +1,7 @@
 # Known Issues
 
 ## Issues reported on Github
-Issue can be reported and tracked on Github, see [github issue](https://github.com/stephanmahieu/formhistorycontrol-2/issues) here.
+Issue can be reported and tracked on Github, see FHC [github issues](https://github.com/stephanmahieu/formhistorycontrol-2/issues).
 
 ## Dialogs not showing content
 There is an annoying bug in Firefox for Linux users which causes the popup window to come up
