@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/",
-            "text": "Form History Control (II) Documentation\n\n\nManual\n\n\n\n\nIntroduction\n\n\nFrequently Asked Questions\n\n\nKnown Issues\n\n\n\n\nFHC Export\n\n\n\n\nFHC Export\n\n\n\n\nRelease notes\n\n\n\n\nRelease notes",
+            "text": "Form History Control (II)\n\n\nManual\n\n\n\n\nIntroduction\n\n\nFrequently Asked Questions\n\n\nKnown Issues\n\n\n\n\nFHC Export\n\n\n\n\nFHC Export\n\n\n\n\nRelease notes\n\n\n\n\nRelease notes\n\n\n\n\nBlog\n\n\n\n\nForm History Control Blog\n (external link)",
             "title": "Home"
         },
         {
-            "location": "/#form-history-control-ii-documentation",
+            "location": "/#form-history-control-ii",
             "text": "",
-            "title": "Form History Control (II) Documentation"
+            "title": "Form History Control (II)"
         },
         {
             "location": "/#manual",
@@ -26,8 +26,13 @@
             "title": "Release notes"
         },
         {
+            "location": "/#blog",
+            "text": "Form History Control Blog  (external link)",
+            "title": "Blog"
+        },
+        {
             "location": "/Manual/manual/",
-            "text": "Introduction\n\n\nTwo ways of opening the application\n\n\nThe main dialog",
+            "text": "Introduction\n\n\nWhy you might need this plugin\n\n\nThis plugin displays all form data that has been saved by the web browser with options to filter the\ndata either by keyword, active page, active field or cleanup criteria. It is furthermore possible to\nsort the data by parameter including form field name, value, date or popularity.\n\n\nThis plugin stores text from editor fields as you type, so you never have to loose your work when\ndisaster strikes. Recover your lost work after session timeouts, network failures, browser crashes,\npower failures, and all other things that will destroy the hard work you just put into writing that\nimportant email, essay or blog post.\n\n\nThis plugin lets you easily search the complete history and selectively delete all data you do not wish\nto be stored for eternity.\n\n\nOpening Form History Control\n\n\nForm History Control can be opened in several different ways:\n\n\n\n\nLeft-click on the Form History Control icon in the toolbar. This wil bring up the small Form History Control\n  popdown dialog giving access to the basic functions. Use this version to quickly access the basic functions.\n\n\nRight-click on the Form History Control icon in the toolbar. This will display a context menu from which\n  tou can open the full featured popdown Form History Control dialog and provides access to all the goodies this\n  add-on has to offer.\n\n\nFrom within the browser window: right-click to show the context menu, Form History Control is listed as\n  a submenu\n\n\nThe Tools menu in the menubar of the browser contains a Form History Control submenu from which you can\n  either open the main dialog or access its preferences.\n\n\n\n\nThe small popdown dialog\n\n\nOpen with left-click on FHC toolbar icon.\n\n\nThe FHC popdown dialog provides a way of quickly accessing the basic functions while you are browsing the web.\nIt offers a basic limited set of features.\n\n\nTo access the complete set of features, open \nThe main dialog\n by right clicking the FHC toolbar icon.\n\n\n\n\nRight-clicking on an item in the list will show a context menu from which you can delete or modify the item.\nYou can also copy the value for the item you clicked to the clipboard.\n\n\nThe searchbox on top will let you filter the list on any fieldname, value, type or URL.\nYou can search on multiple keywords by separating them with a space.\n\n\nTo view de details for an item in the list without closing the list itself, click the + symbol on the left.\nTo see the details in a separate window double-click the item, a \nView Entry\n dialog will open.\n\n\nThe main dialog\n\n\nOpen the main dialog by right-clicking on Form History Control toolbar icon.\n\n\nThe main Dialog provides access to all available features. In addition to the limited popdown dialog\nit has an extra menu-bar on top giving access to additional features.\nThe main dialog also allows you to perform operations on multiple selected items at once.\n\n\nRight-clicking on a list item opens a context-menu which allows you to perform some operations on the clicked item only.\nIn order to perform an action on multiple selected items at once choose the desired operation from the edit-menu in the\nmenubar on top.\n\n\n\n\nThe searchbox on top will let you filter the list on any fieldname, value, type or URL.\nYou can search on multiple keywords by separating them with a space.\n\n\nTo see the details in a separate window double-click the item, a \nView Entry\n dialog will open.\nRight-clicking and selecting modify will open the \nEdit Entry\n dialog.\nIt is also possible to add a complete new item.\n\n\nContext menu\n\n\nWhen Form History Control is installed, you can right-click anywhere in a browser window to bring up the context menu.\nAt the bottom of the context menu a Form History Control submenu will be available, from this submenu you can either\nopen the Main Form History Control dialog or Restore/Fill form fields that may be present in the currently displayed webpage. \n\n\n\n\nPreferences\n\n\nUse the preferences window to manage various options that alter the behaviour of the Form History Control plugin.\n\n\n\n\nThere are multiple ways to open the preferences dialog.\n- Right-click on the FHC toolbar icon will show a context menu, under submenu 'more..' you find a preferences options.\n- From the main dialog or thge popdown dialog, the little cog icon on the top right hand corner will also open the\n  preferences dialog.\n- Opening the add-ons page from the Firefox menu will show all installed add-ons, on the right-side of Form History Control\n  there is a Preferences button that will also show the preferences but in a browser window instead of a separate dialog\n\n\nClean-up\n\n\nWill be available for version 2.1.0.0\n\n\nThemes\n\n\nThe theme selector allows you to choose a color theme for the Form Histor6y Control.\nWhen choosing a different theme, the preference dialog is immediately change to reflect the new setting.\nOnly after the \nApply\n button is clicked will the new theme be activated for all dialogs.\n\n\nDark Theme\n\n\nThis is the Dark theme\n\n\n\nDefault theme\n\n\nThis is the Default theme\n\n\n\nImport / Export\n\n\nExporting lets you save the content of the current collected set of form history items to a single (XML) file.\nImporting reads all form history items from an export file back into your collection.\n\n\nYou can use the Export / Import as a backup mechanism, you can also use it to transfer you collection from one device\nto another.\n\n\nImport and export is available from the File submenu in the menu-bar of \nThe main dialog\n.\n\n\nExport\n\n\nOpen the Export dialog from the File submenu in the menu-bar of \nThe main dialog\n.\n\n\n\n\nAfter the Export dialog is opened, activate the Export button. Due to browser safety restrictions the file will not be\nsave automatically. If the formhistory store is not empty the dialog will display the number of fields it has prepared\nfor export and show a clickable download link.\n\n\nIn order to save the file click on the download link, the browser will then give you the option to either save or open\nthe link. If left-click does not work do a right-click and choose option 'Save link as...' from the menu.   \n\n\nImport\n\n\nOpen the Import dialog from the File submenu in the menu-bar of \nThe main dialog\n.\n\n\n\n\nClick the browse button and open a previous saved export file. Files exported from older versions of\nForm History Control are supported. \n\n\nAfter choosing the file hit the Import button. Duplicate fields already present will not be imported.\nWhen the import succeeds, the dialog will display the amount of text-fields and editor-fields that have been imported\n(including duplicate fields).\n\n\nView / Edit entries\n\n\nBy double clicking on a formhistory item in the list or by choosing modify or add from the menu, a dialog will appear\noffering more details to either modify or add various aspects of a formhistory item..\n\n\nView entry\n\n\nDisplays all aspects stored for a particular entry.\n\n\n\n\nRight-clicking will reveal a context-menu offering the option top either copy only the clean text from a value or the\nraw value itself including any markup information it may contain.\n\n\nRadio-boxes at the bottom make it possible to render a preview according to different formats like HTML, Markdown or Wiki. \n\n\n\n\nTo close the preview deselect the current checked box.\n\n\nEdit entry\n\n\nDisplays all aspects stored for a particular entry.\nCnange any value you like,\n\n\n\n\nWhen multiple items are selected the edit dialog will initially display empty fields and only the count and dates cab be changed.\nThe title on top of the dialog will inform you that you are about to change multiple items at once.",
             "title": "Introduction"
         },
         {
@@ -36,147 +41,247 @@
             "title": "Introduction"
         },
         {
-            "location": "/Manual/manual/#two-ways-of-opening-the-application",
-            "text": "",
-            "title": "Two ways of opening the application"
+            "location": "/Manual/manual/#why-you-might-need-this-plugin",
+            "text": "This plugin displays all form data that has been saved by the web browser with options to filter the\ndata either by keyword, active page, active field or cleanup criteria. It is furthermore possible to\nsort the data by parameter including form field name, value, date or popularity.  This plugin stores text from editor fields as you type, so you never have to loose your work when\ndisaster strikes. Recover your lost work after session timeouts, network failures, browser crashes,\npower failures, and all other things that will destroy the hard work you just put into writing that\nimportant email, essay or blog post.  This plugin lets you easily search the complete history and selectively delete all data you do not wish\nto be stored for eternity.",
+            "title": "Why you might need this plugin"
+        },
+        {
+            "location": "/Manual/manual/#opening-form-history-control",
+            "text": "Form History Control can be opened in several different ways:   Left-click on the Form History Control icon in the toolbar. This wil bring up the small Form History Control\n  popdown dialog giving access to the basic functions. Use this version to quickly access the basic functions.  Right-click on the Form History Control icon in the toolbar. This will display a context menu from which\n  tou can open the full featured popdown Form History Control dialog and provides access to all the goodies this\n  add-on has to offer.  From within the browser window: right-click to show the context menu, Form History Control is listed as\n  a submenu  The Tools menu in the menubar of the browser contains a Form History Control submenu from which you can\n  either open the main dialog or access its preferences.",
+            "title": "Opening Form History Control"
+        },
+        {
+            "location": "/Manual/manual/#the-small-popdown-dialog",
+            "text": "Open with left-click on FHC toolbar icon.  The FHC popdown dialog provides a way of quickly accessing the basic functions while you are browsing the web.\nIt offers a basic limited set of features.  To access the complete set of features, open  The main dialog  by right clicking the FHC toolbar icon.   Right-clicking on an item in the list will show a context menu from which you can delete or modify the item.\nYou can also copy the value for the item you clicked to the clipboard.  The searchbox on top will let you filter the list on any fieldname, value, type or URL.\nYou can search on multiple keywords by separating them with a space.  To view de details for an item in the list without closing the list itself, click the + symbol on the left.\nTo see the details in a separate window double-click the item, a  View Entry  dialog will open.",
+            "title": "The small popdown dialog"
         },
         {
             "location": "/Manual/manual/#the-main-dialog",
-            "text": "",
+            "text": "Open the main dialog by right-clicking on Form History Control toolbar icon.  The main Dialog provides access to all available features. In addition to the limited popdown dialog\nit has an extra menu-bar on top giving access to additional features.\nThe main dialog also allows you to perform operations on multiple selected items at once.  Right-clicking on a list item opens a context-menu which allows you to perform some operations on the clicked item only.\nIn order to perform an action on multiple selected items at once choose the desired operation from the edit-menu in the\nmenubar on top.   The searchbox on top will let you filter the list on any fieldname, value, type or URL.\nYou can search on multiple keywords by separating them with a space.  To see the details in a separate window double-click the item, a  View Entry  dialog will open.\nRight-clicking and selecting modify will open the  Edit Entry  dialog.\nIt is also possible to add a complete new item.",
             "title": "The main dialog"
         },
         {
+            "location": "/Manual/manual/#context-menu",
+            "text": "When Form History Control is installed, you can right-click anywhere in a browser window to bring up the context menu.\nAt the bottom of the context menu a Form History Control submenu will be available, from this submenu you can either\nopen the Main Form History Control dialog or Restore/Fill form fields that may be present in the currently displayed webpage.",
+            "title": "Context menu"
+        },
+        {
+            "location": "/Manual/manual/#preferences",
+            "text": "Use the preferences window to manage various options that alter the behaviour of the Form History Control plugin.   There are multiple ways to open the preferences dialog.\n- Right-click on the FHC toolbar icon will show a context menu, under submenu 'more..' you find a preferences options.\n- From the main dialog or thge popdown dialog, the little cog icon on the top right hand corner will also open the\n  preferences dialog.\n- Opening the add-ons page from the Firefox menu will show all installed add-ons, on the right-side of Form History Control\n  there is a Preferences button that will also show the preferences but in a browser window instead of a separate dialog",
+            "title": "Preferences"
+        },
+        {
+            "location": "/Manual/manual/#clean-up",
+            "text": "Will be available for version 2.1.0.0",
+            "title": "Clean-up"
+        },
+        {
+            "location": "/Manual/manual/#themes",
+            "text": "The theme selector allows you to choose a color theme for the Form Histor6y Control.\nWhen choosing a different theme, the preference dialog is immediately change to reflect the new setting.\nOnly after the  Apply  button is clicked will the new theme be activated for all dialogs.",
+            "title": "Themes"
+        },
+        {
+            "location": "/Manual/manual/#dark-theme",
+            "text": "This is the Dark theme",
+            "title": "Dark Theme"
+        },
+        {
+            "location": "/Manual/manual/#default-theme",
+            "text": "This is the Default theme",
+            "title": "Default theme"
+        },
+        {
+            "location": "/Manual/manual/#import-export",
+            "text": "Exporting lets you save the content of the current collected set of form history items to a single (XML) file.\nImporting reads all form history items from an export file back into your collection.  You can use the Export / Import as a backup mechanism, you can also use it to transfer you collection from one device\nto another.  Import and export is available from the File submenu in the menu-bar of  The main dialog .",
+            "title": "Import / Export"
+        },
+        {
+            "location": "/Manual/manual/#export",
+            "text": "Open the Export dialog from the File submenu in the menu-bar of  The main dialog .   After the Export dialog is opened, activate the Export button. Due to browser safety restrictions the file will not be\nsave automatically. If the formhistory store is not empty the dialog will display the number of fields it has prepared\nfor export and show a clickable download link.  In order to save the file click on the download link, the browser will then give you the option to either save or open\nthe link. If left-click does not work do a right-click and choose option 'Save link as...' from the menu.",
+            "title": "Export"
+        },
+        {
+            "location": "/Manual/manual/#import",
+            "text": "Open the Import dialog from the File submenu in the menu-bar of  The main dialog .   Click the browse button and open a previous saved export file. Files exported from older versions of\nForm History Control are supported.   After choosing the file hit the Import button. Duplicate fields already present will not be imported.\nWhen the import succeeds, the dialog will display the amount of text-fields and editor-fields that have been imported\n(including duplicate fields).",
+            "title": "Import"
+        },
+        {
+            "location": "/Manual/manual/#view-edit-entries",
+            "text": "By double clicking on a formhistory item in the list or by choosing modify or add from the menu, a dialog will appear\noffering more details to either modify or add various aspects of a formhistory item..",
+            "title": "View / Edit entries"
+        },
+        {
+            "location": "/Manual/manual/#view-entry",
+            "text": "Displays all aspects stored for a particular entry.   Right-clicking will reveal a context-menu offering the option top either copy only the clean text from a value or the\nraw value itself including any markup information it may contain.  Radio-boxes at the bottom make it possible to render a preview according to different formats like HTML, Markdown or Wiki.    To close the preview deselect the current checked box.",
+            "title": "View entry"
+        },
+        {
+            "location": "/Manual/manual/#edit-entry",
+            "text": "Displays all aspects stored for a particular entry.\nCnange any value you like,   When multiple items are selected the edit dialog will initially display empty fields and only the count and dates cab be changed.\nThe title on top of the dialog will inform you that you are about to change multiple items at once.",
+            "title": "Edit entry"
+        },
+        {
             "location": "/Manual/FAQ/",
-            "text": "Frequently Asked Questions (FAQ)\n\n\n\n\nwork in progress...",
+            "text": "Frequently Asked Questions (FAQ)\n\n\nData not stored?\n\n\nIf you experience problems regarding form history not being saved, please check if you have\ncookies enabled. This add-on uses indexeddb to store its information and according to this\nissue (see bugzilla) disabling cookies will prevent data being stored. So please check the\nPrivacy and Security preferences of the browser and make sure that cookies are accepted or\nForm History Control will not be able to store your data.\n\n\nEmpty database?\n\n\nThis add-on now uses the new mandatory WebExtensions API which no longer offers access to\nFirefox's built-in formhistory database. This means that after installing the WebExtensions\nenabled version, you start with an empty formhistory data storage.\nThere are two ways to get the formhistory data from the old version back into the new version:\n\n\n\n\nIf you have an export file from the old version, you can simply import that file into the new\n   version. The exportfile is compatible with the new version.\n\n\nIf you have no export file you may use the standalone \nFHCExport\n Java application that\n   is capable of exporting the formhistory data and make it available for the new version,\n   go to the \nFHCExport page\n for more information.",
             "title": "Frequently Asked Questions"
         },
         {
             "location": "/Manual/FAQ/#frequently-asked-questions-faq",
-            "text": "work in progress...",
+            "text": "",
             "title": "Frequently Asked Questions (FAQ)"
         },
         {
+            "location": "/Manual/FAQ/#data-not-stored",
+            "text": "If you experience problems regarding form history not being saved, please check if you have\ncookies enabled. This add-on uses indexeddb to store its information and according to this\nissue (see bugzilla) disabling cookies will prevent data being stored. So please check the\nPrivacy and Security preferences of the browser and make sure that cookies are accepted or\nForm History Control will not be able to store your data.",
+            "title": "Data not stored?"
+        },
+        {
+            "location": "/Manual/FAQ/#empty-database",
+            "text": "This add-on now uses the new mandatory WebExtensions API which no longer offers access to\nFirefox's built-in formhistory database. This means that after installing the WebExtensions\nenabled version, you start with an empty formhistory data storage.\nThere are two ways to get the formhistory data from the old version back into the new version:   If you have an export file from the old version, you can simply import that file into the new\n   version. The exportfile is compatible with the new version.  If you have no export file you may use the standalone  FHCExport  Java application that\n   is capable of exporting the formhistory data and make it available for the new version,\n   go to the  FHCExport page  for more information.",
+            "title": "Empty database?"
+        },
+        {
             "location": "/Manual/KnownIssues/",
-            "text": "Known Issues\n\n\n\n\nwork in progress",
+            "text": "Known Issues\n\n\nIssues reported on Github\n\n\nIssue can be reported and tracked on Github, see \ngithub issue\n here.\n\n\nDialogs not showing content\n\n\nThere is an annoying bug in Firefox for Linux users which causes the popup window to come up\nblank most of the time.\n\n\n\n\nbugzilla: \nBug 1425829\n New popup window appears blank until right-click\n\n\nbugzilla: \nBug 1416505 \n WebExtensions popup blank\n\n\n\n\nWorkaround is to right-click inside the window or resize it. Hopefully this bug will be fixed soon.\n\n\nProgress spinner never stops spinning\n\n\nWhile opening the popdown dialog (left-click), the progress spinner sometimes never stop spinning.\n\n\nThe amount of resources available for a popdown (left-click) dialog is limited by the browser.\nWhen there is too much data to display, the applications runs silently out of resources.\nThe total amount of data that can be displayed by the popdown dialog without a problem lies around 2500 items \ndepending on the available resources of the underlying system.\n\n\nTo fix the problem open the main dialog instead (right-click, choose first menu item). The main dialog is not affected by the \nresource limitation and will always show all available formhistory data.\nYou can now delete some of your older entries to reduce the amount of data.\n\n\nThis issue is fixed in release 2.1.0.0 which will automatically limit the amount of data displayed by the popdown dialog\nand show a warning message when data was discarded from the view. The new version will also provide the ability to\nautomatically cleanup history.",
             "title": "Known Issues"
         },
         {
             "location": "/Manual/KnownIssues/#known-issues",
-            "text": "work in progress",
+            "text": "",
             "title": "Known Issues"
         },
         {
-            "location": "/FHCExport/FHCExport/",
-            "text": "Form History Export\n\n\nThis ia a standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.\n\n\nRequirements\n\n\nThis application requires a Java runtime of at least version 1.8.\nYou can check if you already have Java installed by executing the following command from the commandline:\n\n\n java -version\n\n\n\nIf this command is not recognized you most likely have no java runtime installed.\nYou can find instructions on how to download and install Java here: https://java.com/nl/download/\nor use the package manager provided by your OS.\n\n\nDownload the export application\n\n\nDownload the java application fhcExport-1.0.0.jar from here: \nfhcExport-1.0.0.jar\n .\n\n\nPut this file in any directory you like, then open a dosbox or a terminal window and go to the directory where you downloaded the file.\nStart the application from the commandline using the -jar option (see the Usage section).\n\n\nUsage\n\n\nStep 1: Export data from Firefox's internal formhistory store\n\n\nFrom the command-line you can start this java application using the following command:\n\n\njava -jar fhcExport-1.0.0.jar\n\n\n\nThat should display a little help text because you have to add at least one parameter:\n\n\n -h,--help                show help.\n -o,--outputfile <arg>    optional, the path of the outputfile (default:formhistory.xml in current directory)\n -p,--profile-dir <arg>   required, the Firefox profile directory.\n\n\n\nThe application needs to know where to find the Firefox database so you have to provide the Firefox profile directory.\n\n\nHow to find the profile directory is described here: https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data\n\n\nFor example the profile directory can be something like: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default\n\n\nIf you know the profile directory you can start the java application and try to export the formhistory data,\n\n\nexecute the application as follows with your profile directory as parameter:\n\n\n java -jar fhcExport-1.0.0.jar -p C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default\n\n\n\nIf everything runs smoothly you should see something like:\n\n\nStart formhistory export\n- profile directory: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default/\n- destination file : formhistory.xml\nchecking outputfile:        OK\nchecking profile directory: OK\nreading inputfields:        2230\nreading multilinefields:    441\nwriting data:               OK\n\n\n\nYou should now have an exportfile named formhistory.xml that you can use to import into the new add-on.\n\n\nThe step reading multilinefields might fail, this is completely normal if you never used this add-on before.\nThe export should still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.\n\n\nStep 2: Import the formhistory xml file:\n\n\n\n\nopen the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose first item)\n\n\nFrom this dialog, choose File from the Menu on top, then choose Import: an import dialog will open\n\n\nLocate and select the formhistory.xml file you created in the first step\n\n\nSelecting the xml file will enable the Import button, click this button to start the actual Import",
+            "location": "/Manual/KnownIssues/#issues-reported-on-github",
+            "text": "Issue can be reported and tracked on Github, see  github issue  here.",
+            "title": "Issues reported on Github"
+        },
+        {
+            "location": "/Manual/KnownIssues/#dialogs-not-showing-content",
+            "text": "There is an annoying bug in Firefox for Linux users which causes the popup window to come up\nblank most of the time.   bugzilla:  Bug 1425829  New popup window appears blank until right-click  bugzilla:  Bug 1416505   WebExtensions popup blank   Workaround is to right-click inside the window or resize it. Hopefully this bug will be fixed soon.",
+            "title": "Dialogs not showing content"
+        },
+        {
+            "location": "/Manual/KnownIssues/#progress-spinner-never-stops-spinning",
+            "text": "While opening the popdown dialog (left-click), the progress spinner sometimes never stop spinning.  The amount of resources available for a popdown (left-click) dialog is limited by the browser.\nWhen there is too much data to display, the applications runs silently out of resources.\nThe total amount of data that can be displayed by the popdown dialog without a problem lies around 2500 items \ndepending on the available resources of the underlying system.  To fix the problem open the main dialog instead (right-click, choose first menu item). The main dialog is not affected by the \nresource limitation and will always show all available formhistory data.\nYou can now delete some of your older entries to reduce the amount of data.  This issue is fixed in release 2.1.0.0 which will automatically limit the amount of data displayed by the popdown dialog\nand show a warning message when data was discarded from the view. The new version will also provide the ability to\nautomatically cleanup history.",
+            "title": "Progress spinner never stops spinning"
+        },
+        {
+            "location": "/FHCExport/",
+            "text": "Form History Export\n\n\nThis ia a standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.\n\n\nIn Firefox up to version 57 the internal persistent datastore was based on SQLite, starting with Firefox version 57 that\nwas changed to IndexedDB.\n\n\nIn order to get the formhistory data from old Firefox versions and make it available for the Form History Control plugin\nin newer versions, I developed a standalone application that can read from the SQLite database and create an exportfile\nthat can be imported by the Form History Plugin.\n\n\nRequirements\n\n\nThis application can be used on any platform for which a Java runtime is available. It requires a Java runtime of at least version 1.8.\nYou can check if you already have a Java runtime installed by executing the following command from the commandline:\n\n\njava -version\n\n\n\nIf this command is not recognized you most likely have no Java runtime installed.\nYou can find instructions on how to download and install Java from \nhttp://java.com/nl/download/\n\nor use a package manager provided by your OS.\n\n\nDownload the export application\n\n\nDownload the java application fhcExport-1.0.0.jar from github here: \nfhcExport-1.0.0.jar\n .\n\n\nPut this file in any directory you like, then open a dosbox or a terminal window and navigate to the directory where you downloaded the file.\nStart the application from the commandline using the -jar option (see the Usage section).\n\n\nUsage\n\n\nExporting data from Firefox's internal formhistory store\n\n\nFrom the command-line you start this java application using the following command:\n\n\njava -jar fhcExport-1.0.0.jar\n\n\n\nThat should display a little help text because you have to add at least one parameter:\n\n\n-h,--help                show help.\n-o,--outputfile <arg>    optional, the path of the outputfile (default:formhistory.xml in current directory)\n-p,--profile-dir <arg>   required, the Firefox profile directory.\n\n\n\nThe application needs to know where to find the Firefox database so you have to provide the Firefox profile directory.\n\n\nHow to find the profile directory is described on this \nmozilla.org support page\n\n\nFor example the profile directory can be something like: \nC:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default\n if you have a Windows OS.\n\n\nIf you know the profile directory you can start the java application and try to export the formhistory data.\n\nExecute the application with your profile directory as parameter:\n\n\njava -jar fhcExport-1.0.0.jar -p C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default\n\n\n\nIf everything runs smoothly you should see something like:\n\n\nStart formhistory export\n- profile directory: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default/\n- destination file : formhistory.xml\nchecking outputfile:        OK\nchecking profile directory: OK\nreading inputfields:        2230\nreading multilinefields:    441\nwriting data:               OK\n\n\n\nYou should now have an exportfile named formhistory.xml that you can use to import into the new add-on.\n\n\nThe 'reading multilinefields' step might fail, this is completely normal if you never used this add-on before.\nThe export will still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.\n\n\nImporting the formhistory xml file:\n\n\n\n\nopen the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose the first menu item)\n\n\nFrom the dialog you just opened, choose File from the Menu on top, then choose Import: the import dialog will open\n\n\nLocate and select the formhistory.xml file you exported previously\n\n\nSelecting the xml exportfile will enable the Import button, click this button to start the actual Import",
             "title": "FHC Export"
         },
         {
-            "location": "/FHCExport/FHCExport/#form-history-export",
-            "text": "This ia a standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.",
+            "location": "/FHCExport/#form-history-export",
+            "text": "This ia a standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.  In Firefox up to version 57 the internal persistent datastore was based on SQLite, starting with Firefox version 57 that\nwas changed to IndexedDB.  In order to get the formhistory data from old Firefox versions and make it available for the Form History Control plugin\nin newer versions, I developed a standalone application that can read from the SQLite database and create an exportfile\nthat can be imported by the Form History Plugin.",
             "title": "Form History Export"
         },
         {
-            "location": "/FHCExport/FHCExport/#requirements",
-            "text": "This application requires a Java runtime of at least version 1.8.\nYou can check if you already have Java installed by executing the following command from the commandline:   java -version  If this command is not recognized you most likely have no java runtime installed.\nYou can find instructions on how to download and install Java here: https://java.com/nl/download/\nor use the package manager provided by your OS.",
+            "location": "/FHCExport/#requirements",
+            "text": "This application can be used on any platform for which a Java runtime is available. It requires a Java runtime of at least version 1.8.\nYou can check if you already have a Java runtime installed by executing the following command from the commandline:  java -version  If this command is not recognized you most likely have no Java runtime installed.\nYou can find instructions on how to download and install Java from  http://java.com/nl/download/ \nor use a package manager provided by your OS.",
             "title": "Requirements"
         },
         {
-            "location": "/FHCExport/FHCExport/#download-the-export-application",
-            "text": "Download the java application fhcExport-1.0.0.jar from here:  fhcExport-1.0.0.jar  .  Put this file in any directory you like, then open a dosbox or a terminal window and go to the directory where you downloaded the file.\nStart the application from the commandline using the -jar option (see the Usage section).",
+            "location": "/FHCExport/#download-the-export-application",
+            "text": "Download the java application fhcExport-1.0.0.jar from github here:  fhcExport-1.0.0.jar  .  Put this file in any directory you like, then open a dosbox or a terminal window and navigate to the directory where you downloaded the file.\nStart the application from the commandline using the -jar option (see the Usage section).",
             "title": "Download the export application"
         },
         {
-            "location": "/FHCExport/FHCExport/#usage",
+            "location": "/FHCExport/#usage",
             "text": "",
             "title": "Usage"
         },
         {
-            "location": "/FHCExport/FHCExport/#step-1-export-data-from-firefoxs-internal-formhistory-store",
-            "text": "From the command-line you can start this java application using the following command:  java -jar fhcExport-1.0.0.jar  That should display a little help text because you have to add at least one parameter:   -h,--help                show help.\n -o,--outputfile <arg>    optional, the path of the outputfile (default:formhistory.xml in current directory)\n -p,--profile-dir <arg>   required, the Firefox profile directory.  The application needs to know where to find the Firefox database so you have to provide the Firefox profile directory.  How to find the profile directory is described here: https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data  For example the profile directory can be something like: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default  If you know the profile directory you can start the java application and try to export the formhistory data,  execute the application as follows with your profile directory as parameter:   java -jar fhcExport-1.0.0.jar -p C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default  If everything runs smoothly you should see something like:  Start formhistory export\n- profile directory: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default/\n- destination file : formhistory.xml\nchecking outputfile:        OK\nchecking profile directory: OK\nreading inputfields:        2230\nreading multilinefields:    441\nwriting data:               OK  You should now have an exportfile named formhistory.xml that you can use to import into the new add-on.  The step reading multilinefields might fail, this is completely normal if you never used this add-on before.\nThe export should still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.",
-            "title": "Step 1: Export data from Firefox's internal formhistory store"
+            "location": "/FHCExport/#exporting-data-from-firefoxs-internal-formhistory-store",
+            "text": "From the command-line you start this java application using the following command:  java -jar fhcExport-1.0.0.jar  That should display a little help text because you have to add at least one parameter:  -h,--help                show help.\n-o,--outputfile <arg>    optional, the path of the outputfile (default:formhistory.xml in current directory)\n-p,--profile-dir <arg>   required, the Firefox profile directory.  The application needs to know where to find the Firefox database so you have to provide the Firefox profile directory.  How to find the profile directory is described on this  mozilla.org support page  For example the profile directory can be something like:  C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default  if you have a Windows OS.  If you know the profile directory you can start the java application and try to export the formhistory data. \nExecute the application with your profile directory as parameter:  java -jar fhcExport-1.0.0.jar -p C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default  If everything runs smoothly you should see something like:  Start formhistory export\n- profile directory: C:\\Users\\John\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\jguiwjin.default/\n- destination file : formhistory.xml\nchecking outputfile:        OK\nchecking profile directory: OK\nreading inputfields:        2230\nreading multilinefields:    441\nwriting data:               OK  You should now have an exportfile named formhistory.xml that you can use to import into the new add-on.  The 'reading multilinefields' step might fail, this is completely normal if you never used this add-on before.\nThe export will still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.",
+            "title": "Exporting data from Firefox's internal formhistory store"
         },
         {
-            "location": "/FHCExport/FHCExport/#step-2-import-the-formhistory-xml-file",
-            "text": "open the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose first item)  From this dialog, choose File from the Menu on top, then choose Import: an import dialog will open  Locate and select the formhistory.xml file you created in the first step  Selecting the xml file will enable the Import button, click this button to start the actual Import",
-            "title": "Step 2: Import the formhistory xml file:"
+            "location": "/FHCExport/#importing-the-formhistory-xml-file",
+            "text": "open the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose the first menu item)  From the dialog you just opened, choose File from the Menu on top, then choose Import: the import dialog will open  Locate and select the formhistory.xml file you exported previously  Selecting the xml exportfile will enable the Import button, click this button to start the actual Import",
+            "title": "Importing the formhistory xml file:"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/",
-            "text": "Form History Control - Release Notes\n\n\n2.0.3.2 December 22, 2017\n\n\n\n\nBugfix: remove prematurely (incomplete) option features\n\n\n\n\n2.0.3.1 December 22, 2017\n\n\n\n\nUpdate German translation (datatables.json)\n\n\n\n\n2.0.3.0 December 20, 2017\n\n\n\n\nAdded German translation\n\n\n\n\n2.0.2.5 December 16, 2017\n\n\n\n\nBugfix 2 for not showing content in popup windows on some OS's and slow pc's (multiple attempts to restore content)\n\n\nBugfix missing first letter of About window title\n\n\n\n\n2.0.2.4 December 15, 2017\n\n\n\n\nBugfix for not showing content in popup windows on some OS's\n\n\n\n\n2.0.2.3 December 7, 2017\n\n\n\n\nDisplay an error message when there is a problem with database permission\n\n\nHide URL column in small popup tableview to prevent messed up layout (remains searchable)\n\n\n\n\n2.0.2.2 November 21, 2017\n\n\n\n\nTweak column widths in small datatable popup to prevent messed up layout\n\n\nHold page position when updating and redrawing age in datatable\n\n\nRename Wiky.js -> wiky.js (fix wiki preview in entryview)\n\n\nSmall increase (50px) entryview width\n\n\n\n\n2.0.2.1 November 21, 2017\n\n\n\n\nBugfix: limit size of columns and preview in the small popup panel)\n\n\n\n\n2.0.2.0 November 21, 2017\n\n\n\n\nAdd url to the tableview, searching now includes the url\n\n\nAdded Markdown, Wiki and Text preview to entryview\n\n\nRemove inline styles when converting html to readable text\n\n\nEscape tooltip text in datatable view (fix values sometimes exceeding max length value column)\n\n\n\n\n2.0.1.0 November 20, 2017\n\n\n\n\nAdd additional clickable icons to the small popup\n\n\nCopy text to clipboard now preserves HTML formatting\n\n\nHide HTML tags from tableview, show readable text only\n\n\nBugfix restore editor field contextmenu:\n\n\nshow international chars\n\n\nsort hostname matches by date\n\n\nexclude hostname matches from recent used\n\n\n\n\n\n\nFix close button preference dialog not always visible\n\n\n\n\n2.0.0.3 November 15, 2017\n\n\n\n\nShow all data in the left-click popup dialog instead of just the fields for the active page (more intuitive)\n\n\nSet the override-automplete preference default to false\n\n\n\n\n2.0.0.2 November 14, 2017\n\n\n\n\nFixed issue where text entered in dynamically generated input forms (like gmail) was not detected\n\n\n\n\n2.0.0.1 November 13, 2017\n\n\n\n\nBump version to 4 digits to comply with old (non-WebExtension) version\n\n\n\n\n2.0.0 November 12, 2017\n\n\n\n\nComplete redesign, WebExtension and Multiprocess compatible",
+            "location": "/ReleaseNotes/fhc-releasenotes/",
+            "text": "Form History Control - Release Notes\n\n\n2.1.0.0 wip - not released yet\n\n\n\n\nAutomatic Cleanup added\n\n\nDisable collecting formhistory for specific sites or fields\n\n\npreferences window:\n\n\nDomain filter: all / blacklist / whitelist\n\n\nField filter: exclude fieldnames\n\n\n\n\n\n\ntoolbar icon now reflects status enabled/disabled\n\n\n\n\n\n\nRedesign preferences window\n\n\nLimit the amount of data for the popdown dialog (browser limitation issue)\n\n\nUpdate last-used date for autofilled fields\n\n\n\n\n2.0.3.2 December 22, 2017\n\n\n\n\nBugfix: remove prematurely (incomplete) option features\n\n\n\n\n2.0.3.1 December 22, 2017\n\n\n\n\nUpdate German translation (datatables.json)\n\n\n\n\n2.0.3.0 December 20, 2017\n\n\n\n\nAdded German translation\n\n\n\n\n2.0.2.5 December 16, 2017\n\n\n\n\nBugfix 2 for not showing content in popup windows on some OS's and slow pc's (multiple attempts to restore content)\n\n\nBugfix missing first letter of About window title\n\n\n\n\n2.0.2.4 December 15, 2017\n\n\n\n\nBugfix for not showing content in popup windows on some OS's\n\n\n\n\n2.0.2.3 December 7, 2017\n\n\n\n\nDisplay an error message when there is a problem with database permission\n\n\nHide URL column in small popup tableview to prevent messed up layout (remains searchable)\n\n\n\n\n2.0.2.2 November 21, 2017\n\n\n\n\nTweak column widths in small datatable popup to prevent messed up layout\n\n\nHold page position when updating and redrawing age in datatable\n\n\nRename Wiky.js -> wiky.js (fix wiki preview in entryview)\n\n\nSmall increase (50px) entryview width\n\n\n\n\n2.0.2.1 November 21, 2017\n\n\n\n\nBugfix: limit size of columns and preview in the small popup panel)\n\n\n\n\n2.0.2.0 November 21, 2017\n\n\n\n\nAdd url to the tableview, searching now includes the url\n\n\nAdded Markdown, Wiki and Text preview to entryview\n\n\nRemove inline styles when converting html to readable text\n\n\nEscape tooltip text in datatable view (fix values sometimes exceeding max length value column)\n\n\n\n\n2.0.1.0 November 20, 2017\n\n\n\n\nAdd additional clickable icons to the small popup\n\n\nCopy text to clipboard now preserves HTML formatting\n\n\nHide HTML tags from tableview, show readable text only\n\n\nBugfix restore editor field contextmenu:\n\n\nshow international chars\n\n\nsort hostname matches by date\n\n\nexclude hostname matches from recent used\n\n\n\n\n\n\nFix close button preference dialog not always visible\n\n\n\n\n2.0.0.3 November 15, 2017\n\n\n\n\nShow all data in the left-click popup dialog instead of just the fields for the active page (more intuitive)\n\n\nSet the override-automplete preference default to false\n\n\n\n\n2.0.0.2 November 14, 2017\n\n\n\n\nFixed issue where text entered in dynamically generated input forms (like gmail) was not detected\n\n\n\n\n2.0.0.1 November 13, 2017\n\n\n\n\nBump version to 4 digits to comply with old (non-WebExtension) version\n\n\n\n\n2.0.0 November 12, 2017\n\n\n\n\nComplete redesign, WebExtension and Multiprocess compatible",
             "title": "Release Notes"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#form-history-control-release-notes",
+            "location": "/ReleaseNotes/fhc-releasenotes/#form-history-control-release-notes",
             "text": "",
             "title": "Form History Control - Release Notes"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2032-december-22-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2100-wip-not-released-yet",
+            "text": "Automatic Cleanup added  Disable collecting formhistory for specific sites or fields  preferences window:  Domain filter: all / blacklist / whitelist  Field filter: exclude fieldnames    toolbar icon now reflects status enabled/disabled    Redesign preferences window  Limit the amount of data for the popdown dialog (browser limitation issue)  Update last-used date for autofilled fields",
+            "title": "2.1.0.0 wip - not released yet"
+        },
+        {
+            "location": "/ReleaseNotes/fhc-releasenotes/#2032-december-22-2017",
             "text": "Bugfix: remove prematurely (incomplete) option features",
             "title": "2.0.3.2 December 22, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2031-december-22-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2031-december-22-2017",
             "text": "Update German translation (datatables.json)",
             "title": "2.0.3.1 December 22, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2030-december-20-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2030-december-20-2017",
             "text": "Added German translation",
             "title": "2.0.3.0 December 20, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2025-december-16-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2025-december-16-2017",
             "text": "Bugfix 2 for not showing content in popup windows on some OS's and slow pc's (multiple attempts to restore content)  Bugfix missing first letter of About window title",
             "title": "2.0.2.5 December 16, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2024-december-15-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2024-december-15-2017",
             "text": "Bugfix for not showing content in popup windows on some OS's",
             "title": "2.0.2.4 December 15, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2023-december-7-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2023-december-7-2017",
             "text": "Display an error message when there is a problem with database permission  Hide URL column in small popup tableview to prevent messed up layout (remains searchable)",
             "title": "2.0.2.3 December 7, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2022-november-21-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2022-november-21-2017",
             "text": "Tweak column widths in small datatable popup to prevent messed up layout  Hold page position when updating and redrawing age in datatable  Rename Wiky.js -> wiky.js (fix wiki preview in entryview)  Small increase (50px) entryview width",
             "title": "2.0.2.2 November 21, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2021-november-21-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2021-november-21-2017",
             "text": "Bugfix: limit size of columns and preview in the small popup panel)",
             "title": "2.0.2.1 November 21, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2020-november-21-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2020-november-21-2017",
             "text": "Add url to the tableview, searching now includes the url  Added Markdown, Wiki and Text preview to entryview  Remove inline styles when converting html to readable text  Escape tooltip text in datatable view (fix values sometimes exceeding max length value column)",
             "title": "2.0.2.0 November 21, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2010-november-20-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2010-november-20-2017",
             "text": "Add additional clickable icons to the small popup  Copy text to clipboard now preserves HTML formatting  Hide HTML tags from tableview, show readable text only  Bugfix restore editor field contextmenu:  show international chars  sort hostname matches by date  exclude hostname matches from recent used    Fix close button preference dialog not always visible",
             "title": "2.0.1.0 November 20, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2003-november-15-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2003-november-15-2017",
             "text": "Show all data in the left-click popup dialog instead of just the fields for the active page (more intuitive)  Set the override-automplete preference default to false",
             "title": "2.0.0.3 November 15, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2002-november-14-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2002-november-14-2017",
             "text": "Fixed issue where text entered in dynamically generated input forms (like gmail) was not detected",
             "title": "2.0.0.2 November 14, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#2001-november-13-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#2001-november-13-2017",
             "text": "Bump version to 4 digits to comply with old (non-WebExtension) version",
             "title": "2.0.0.1 November 13, 2017"
         },
         {
-            "location": "/ReleaseNotes/releasenotes/#200-november-12-2017",
+            "location": "/ReleaseNotes/fhc-releasenotes/#200-november-12-2017",
             "text": "Complete redesign, WebExtension and Multiprocess compatible",
             "title": "2.0.0 November 12, 2017"
         },
