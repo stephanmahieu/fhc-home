@@ -1,6 +1,6 @@
-# Form History Control (II) Documentation
+<img align="right" src="./img/fhc-64.png" alt="Form History Control icon" title="Form History Control icon">
 
-![FHC icon](./img/fhc-64.png "Main Dialog")
+# Form History Control (II)
 
 ## Manual
 - [Introduction](Manual/manual.md)
@@ -9,4 +9,6 @@
 ## FHC Export
 - [FHC Export](FHCExport.md)
 ## Release notes
-- [Release notes](ReleaseNotes/releasenotes.md)
+- [Release notes](ReleaseNotes/fhc-releasenotes.md)
+## Blog
+- [Form History Control Blog](https://formhistory.blogspot.com/) (external link)

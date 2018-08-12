@@ -1,5 +1,16 @@
 # Form History Control - Release Notes
 
+### 2.1.0.0 wip - not released yet
+- Automatic Cleanup added
+- Disable collecting formhistory for specific sites or fields
+    - preferences window:
+        - Domain filter: all / blacklist / whitelist
+        - Field filter: exclude fieldnames
+    - toolbar icon now reflects status enabled/disabled
+- Redesign preferences window
+- Limit the amount of data for the popdown dialog (browser limitation issue)
+- Update last-used date for autofilled fields
+
 ### 2.0.3.2 December 22, 2017
 - Bugfix: remove prematurely (incomplete) option features
 
