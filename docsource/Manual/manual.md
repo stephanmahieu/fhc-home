@@ -110,7 +110,7 @@ This is the Default theme
 Exporting lets you save the content of the current collected set of form history items to a single (XML) file.
 Importing reads all form history items from an export file back into your collection.
 
-You can use the Export / Import as a backup mechanism, you can also use it to transfer you collection from one device
+You can use the Export / Import as a backup mechanism, you can also use it to transfer your collection from one device
 to another.
 
 Import and export is available from the File submenu in the menu-bar of [The main dialog](#the-main-dialog).
