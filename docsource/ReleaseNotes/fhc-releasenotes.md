@@ -9,6 +9,7 @@
     - toolbar icon now reflects status enabled/disabled
 - Redesign preferences window
 - Limit the amount of data for the popdown dialog (browser limitation issue)
+- Show fields current page: color code specific input types
 - Update last-used date for autofilled fields
 
 ### 2.0.3.2 December 22, 2017
