@@ -1,6 +1,7 @@
 # Form History Control - Release Notes
 
 ### 2.1.0.0 wip - not released yet
+- Improved field detection
 - Automatic Cleanup added
 - Disable collecting formhistory for specific sites or fields
     - preferences window:
@@ -11,6 +12,7 @@
 - Limit the amount of data for the popdown dialog (browser limitation issue)
 - Show fields current page: color code specific input types
 - Update last-used date for autofilled fields
+- Blue theme added
 
 ### 2.0.3.2 December 22, 2017
 - Bugfix: remove prematurely (incomplete) option features
