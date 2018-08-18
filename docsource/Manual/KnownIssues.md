@@ -26,8 +26,8 @@ resource limitation and will always show all available formhistory data.
 You can now delete some of your older entries to reduce the amount of data.
 
 This issue is fixed in release 2.1.0.0 which will automatically limit the amount of data displayed by the popdown dialog
-and show a warning message when data was discarded from the view. The new version will also provide the ability to
-automatically cleanup history.
+as well as the amount of time it may take and show a warning message when data was discarded from the view.
+The new version will also provide the ability to automatically cleanup history to prevent this kind of problem to occur.
 
 ## Storage (IndexedDB) Error
 
