@@ -13,6 +13,15 @@ important email, essay or blog post.
 This plugin lets you easily search the complete history and selectively delete all data you do not wish
 to be stored for eternity.
 
+## Installation
+Install Form History Control from the Firefox [add-ons page](https://addons.mozilla.org/firefox/addon/form-history-control/).
+Use the **[+ Add to Firefox]** button.
+
+After installation you may want to add the Form History Control Icon to the tool-bar.
+Choose customize from the Firefox menu and drag the icon to the desired position.
+
+See [add FHC to the toolbar](./images/AddingToolbaricon-Animated.gif) for an animation on how to do that.
+
 ## Opening Form History Control
 Form History Control can be opened in several different ways:
 
