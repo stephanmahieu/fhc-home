@@ -3,7 +3,7 @@
 # Form History Control (II)
 
 ## Manual
-- [Introduction](Manual/Manual.md)
+- [Introduction](Manual/manual.md)
 - [Frequently Asked Questions](Manual/FAQ.md)
 - [Known Issues](Manual/KnownIssues.md)
 ## FHC Export

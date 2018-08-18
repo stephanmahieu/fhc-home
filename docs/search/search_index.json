@@ -31,117 +31,117 @@
             "title": "Blog"
         },
         {
-            "location": "/Manual/Manual/",
+            "location": "/Manual/manual/",
             "text": "Introduction\n\n\nWhy you might need this plugin\n\n\nThis plugin displays all form data that has been saved by the web browser with options to filter the\ndata either by keyword, active page, active field or cleanup criteria. It is furthermore possible to\nsort the data by parameter including form field name, value, date or popularity.\n\n\nThis plugin stores text from editor fields as you type, so you never have to loose your work when\ndisaster strikes. Recover your lost work after session timeouts, network failures, browser crashes,\npower failures, and all other things that will destroy the hard work you just put into writing that\nimportant email, essay or blog post.\n\n\nThis plugin lets you easily search the complete history and selectively delete all data you do not wish\nto be stored for eternity.\n\n\nInstallation\n\n\nInstall Form History Control from the Firefox \nadd-ons page\n.\nUse the \n[+ Add to Firefox]\n button.\n\n\nAfter installation you may want to add the Form History Control Icon to the tool-bar.\nChoose customize from the Firefox menu and drag the icon to the desired position.\n\n\nSee \nadd FHC to the toolbar\n for an animation on how to do that.\n\n\nOpening Form History Control\n\n\nForm History Control can be opened in several different ways:\n\n\n\n\nLeft-click on the Form History Control icon in the toolbar. This wil bring up the small Form History Control\n  popdown dialog giving access to the basic functions. Use this version to quickly access the basic functions.\n\n\nRight-click on the Form History Control icon in the toolbar. This will display a context menu from which\n  tou can open the full featured popdown Form History Control dialog and provides access to all the goodies this\n  add-on has to offer.\n\n\nFrom within the browser window: right-click to show the context menu, Form History Control is listed as\n  a submenu\n\n\nThe Tools menu in the menubar of the browser contains a Form History Control submenu from which you can\n  either open the main dialog or access its preferences.\n\n\n\n\nThe small popdown dialog\n\n\nOpen with left-click on FHC toolbar icon.\n\n\nThe FHC popdown dialog provides a way of quickly accessing the basic functions while you are browsing the web.\nIt offers a basic limited set of features.\n\n\nTo access the complete set of features, open \nThe main dialog\n by right clicking the FHC toolbar icon.\n\n\n\n\nRight-clicking on an item in the list will show a context menu from which you can delete or modify the item.\nYou can also copy the value for the item you clicked to the clipboard.\n\n\nThe searchbox on top will let you filter the list on any fieldname, value, type or URL.\nYou can search on multiple keywords by separating them with a space.\n\n\nTo view de details for an item in the list without closing the list itself, click the + symbol on the left.\nTo see the details in a separate window double-click the item, a \nView Entry\n dialog will open.\n\n\nSee the popdown in action!\n\n\nThe main dialog\n\n\nOpen the main dialog by right-clicking on Form History Control toolbar icon.\n\n\nThe main Dialog provides access to all available features. In addition to the limited popdown dialog\nit has an extra menu-bar on top giving access to additional features.\nThe main dialog also allows you to perform operations on multiple selected items at once.\n\n\nRight-clicking on a list item opens a context-menu which allows you to perform some operations on the clicked item only.\nIn order to perform an action on multiple selected items at once choose the desired operation from the edit-menu in the\nmenubar on top.\n\n\n\n\nThe searchbox on top will let you filter the list on any fieldname, value, type or URL.\nYou can search on multiple keywords by separating them with a space.\n\n\nTo see the details in a separate window double-click the item, a \nView Entry\n dialog will open.\nRight-clicking and selecting modify will open the \nEdit Entry\n dialog.\nIt is also possible to add a complete new item.\n\n\nSee the Main dialog in action!\n\n\nContext menu\n\n\nWhen Form History Control is installed, you can right-click anywhere in a browser window to bring up the context menu.\nAt the bottom of the context menu a Form History Control submenu will be available, from this submenu you can either\nopen the Main Form History Control dialog or Restore/Fill form fields that may be present in the currently displayed webpage. \n\n\n\n\nSee the context menu in action!\n\n\nPreferences\n\n\nUse the preferences window to manage various options that alter the behaviour of the Form History Control plugin.\n\n\n\n\nThere are multiple ways to open the preferences dialog:\n\n\n\n\nRight-click on the FHC toolbar icon will show a context menu, under submenu 'more..' you find a preferences options.\n\n\nFrom the main dialog or thge popdown dialog, the little cog icon on the top right hand corner will also open the\n  preferences dialog.\n\n\nOpening the add-ons page from the Firefox menu will show all installed add-ons, on the right-side of Form History Control\n  there is a Preferences button that will also show the preferences but in a browser window instead of a separate dialog\n\n\n\n\nMiscellaneous\n\n\nHere you can choose to override the built-in the Firefox autocomplete feature. This option basically disables the\nbuilt-in autocomplete dropdown-lists and the internal formhistory datastore.\n\n\nWhen override is enabled the autocomplete dropdown lists are generated by the Form History Control add-on using\nthe formhistory exclusivly maintained by the add-on.\n\n\n\n\nDomain Filter\n\n\nIf \nAllow All\n is enabled (the default), the Form History Control add-on will remember form history for all pages.\n\n\nTo exclude certain pages from storing formhistory two options are available, either \nblacklist\n the domains for sites you\nwish to exclude or \nwhitelist\n only the domains for sites you do wish to remember.\n\n\n\n\nIf either the blacklist or whitelist option is enabled the Form History Control icon in the toolbar will reflect the\ncurrent state of saving allowed (green + sign) or saving disallowed (red - sign).\n\n\nSee the Domain Filter in action\n\n\nField Filter\n\n\nTo prevent storing formhistory for certain fields add the name of the field to the Field Filter list.\n\nStandard password type fields are never stored and do not have to be added here.\n \n\n\n\n\nClean-up\n\n\nAutomatic cleanup will periodically (every 15 minutes) remove entries from the formhistory storage if older than the\nset number of days.\n\n\nIt is recommended that you enable this option. If the storage contains a very large number of entries the add-on can\nbecome sluggish (particularly the popdown dialog will be affected).\n\n\n\n\nDepending on the resources of the underlying system try to keep the number of entries below 2500.\n\n\nThemes\n\n\nIn the Display options the theme selector allows you to choose a color theme for the Form Histor6y Control.\nWhen choosing a different theme, the preference dialog is immediately change to reflect the new setting.\nOnly after the \nApply\n button is clicked will the new theme be activated for all dialogs.\n\n\nSee Theming in action!\n\n\nDefault theme\n\n\nThis is the Default theme\n\n\n\nDark Theme\n\n\nThis is the Dark theme\n\n\n\nBlue Theme\n\n\nThis is the Blue theme\n\n\n\nImport / Export\n\n\nExporting lets you save the content of the current collected set of form history items to a single (XML) file.\nImporting reads all form history items from an export file back into your collection.\n\n\nYou can use the Export / Import as a backup mechanism, you can also use it to transfer your collection from one device\nto another.\n\n\nImport and export is available from the File submenu in the menu-bar of \nThe main dialog\n.\n\n\nExport\n\n\nOpen the Export dialog from the File submenu in the menu-bar of \nThe main dialog\n.\n\n\n\n\nAfter the Export dialog is opened, activate the Export button. Due to browser safety restrictions the file will not be\nsaved automatically. If the formhistory store is not empty the dialog will display the number of fields it has prepared\nfor export and show a clickable download link.\n\n\nIn order to save the file click on the download link, the browser will then give you the option to either save or open\nthe link. If left-click does not work do a right-click and choose option 'Save link as...' from the menu.   \n\n\nSee Exporting entries in action!\n\n\nImport\n\n\nOpen the Import dialog from the File submenu in the menu-bar of \nThe main dialog\n.\n\n\n\n\nClick the browse button and open a previously saved export file. XML-Files exported from older versions of\nForm History Control are supported. \n\n\nAfter choosing the file hit the Import button. Duplicate fields already present will not be imported.\nWhen the import succeeds, the dialog will display the amount of text-fields and editor-fields that have been imported\n(including duplicate fields).\n\n\nSee Importing entries in action!\n\n\nView / Edit entries\n\n\nBy double clicking on a formhistory item in the list or by choosing modify or add from the menu, a dialog will appear\noffering more details to either modify or add various aspects of a formhistory item.\n\n\nView entry\n\n\nDisplays all aspects stored for a particular entry.\n\n\n\n\nRight-clicking will reveal a context-menu offering the option top either copy only the clean text from a value or the\nraw value including any markup information it may contain.\n\n\nRadio-boxes at the bottom make it possible to render a preview according to different formats like HTML, Markdown or Wiki. \n\n\n\n\nTo close the preview deselect the current checked box.\n\n\nEdit entry\n\n\nDisplays all aspects stored for a particular entry.\nCnange any value you like,\n\n\n\n\nWhen multiple items are selected the edit dialog will initially display empty fields and only the count and dates can be changed.\nThe title on top of the dialog will inform you that you are about to change multiple items at once.",
             "title": "Introduction"
         },
         {
-            "location": "/Manual/Manual/#introduction",
+            "location": "/Manual/manual/#introduction",
             "text": "",
             "title": "Introduction"
         },
         {
-            "location": "/Manual/Manual/#why-you-might-need-this-plugin",
+            "location": "/Manual/manual/#why-you-might-need-this-plugin",
             "text": "This plugin displays all form data that has been saved by the web browser with options to filter the\ndata either by keyword, active page, active field or cleanup criteria. It is furthermore possible to\nsort the data by parameter including form field name, value, date or popularity.  This plugin stores text from editor fields as you type, so you never have to loose your work when\ndisaster strikes. Recover your lost work after session timeouts, network failures, browser crashes,\npower failures, and all other things that will destroy the hard work you just put into writing that\nimportant email, essay or blog post.  This plugin lets you easily search the complete history and selectively delete all data you do not wish\nto be stored for eternity.",
             "title": "Why you might need this plugin"
         },
         {
-            "location": "/Manual/Manual/#installation",
+            "location": "/Manual/manual/#installation",
             "text": "Install Form History Control from the Firefox  add-ons page .\nUse the  [+ Add to Firefox]  button.  After installation you may want to add the Form History Control Icon to the tool-bar.\nChoose customize from the Firefox menu and drag the icon to the desired position.  See  add FHC to the toolbar  for an animation on how to do that.",
             "title": "Installation"
         },
         {
-            "location": "/Manual/Manual/#opening-form-history-control",
+            "location": "/Manual/manual/#opening-form-history-control",
             "text": "Form History Control can be opened in several different ways:   Left-click on the Form History Control icon in the toolbar. This wil bring up the small Form History Control\n  popdown dialog giving access to the basic functions. Use this version to quickly access the basic functions.  Right-click on the Form History Control icon in the toolbar. This will display a context menu from which\n  tou can open the full featured popdown Form History Control dialog and provides access to all the goodies this\n  add-on has to offer.  From within the browser window: right-click to show the context menu, Form History Control is listed as\n  a submenu  The Tools menu in the menubar of the browser contains a Form History Control submenu from which you can\n  either open the main dialog or access its preferences.",
             "title": "Opening Form History Control"
         },
         {
-            "location": "/Manual/Manual/#the-small-popdown-dialog",
+            "location": "/Manual/manual/#the-small-popdown-dialog",
             "text": "Open with left-click on FHC toolbar icon.  The FHC popdown dialog provides a way of quickly accessing the basic functions while you are browsing the web.\nIt offers a basic limited set of features.  To access the complete set of features, open  The main dialog  by right clicking the FHC toolbar icon.   Right-clicking on an item in the list will show a context menu from which you can delete or modify the item.\nYou can also copy the value for the item you clicked to the clipboard.  The searchbox on top will let you filter the list on any fieldname, value, type or URL.\nYou can search on multiple keywords by separating them with a space.  To view de details for an item in the list without closing the list itself, click the + symbol on the left.\nTo see the details in a separate window double-click the item, a  View Entry  dialog will open.  See the popdown in action!",
             "title": "The small popdown dialog"
         },
         {
-            "location": "/Manual/Manual/#the-main-dialog",
+            "location": "/Manual/manual/#the-main-dialog",
             "text": "Open the main dialog by right-clicking on Form History Control toolbar icon.  The main Dialog provides access to all available features. In addition to the limited popdown dialog\nit has an extra menu-bar on top giving access to additional features.\nThe main dialog also allows you to perform operations on multiple selected items at once.  Right-clicking on a list item opens a context-menu which allows you to perform some operations on the clicked item only.\nIn order to perform an action on multiple selected items at once choose the desired operation from the edit-menu in the\nmenubar on top.   The searchbox on top will let you filter the list on any fieldname, value, type or URL.\nYou can search on multiple keywords by separating them with a space.  To see the details in a separate window double-click the item, a  View Entry  dialog will open.\nRight-clicking and selecting modify will open the  Edit Entry  dialog.\nIt is also possible to add a complete new item.  See the Main dialog in action!",
             "title": "The main dialog"
         },
         {
-            "location": "/Manual/Manual/#context-menu",
+            "location": "/Manual/manual/#context-menu",
             "text": "When Form History Control is installed, you can right-click anywhere in a browser window to bring up the context menu.\nAt the bottom of the context menu a Form History Control submenu will be available, from this submenu you can either\nopen the Main Form History Control dialog or Restore/Fill form fields that may be present in the currently displayed webpage.    See the context menu in action!",
             "title": "Context menu"
         },
         {
-            "location": "/Manual/Manual/#preferences",
+            "location": "/Manual/manual/#preferences",
             "text": "Use the preferences window to manage various options that alter the behaviour of the Form History Control plugin.   There are multiple ways to open the preferences dialog:   Right-click on the FHC toolbar icon will show a context menu, under submenu 'more..' you find a preferences options.  From the main dialog or thge popdown dialog, the little cog icon on the top right hand corner will also open the\n  preferences dialog.  Opening the add-ons page from the Firefox menu will show all installed add-ons, on the right-side of Form History Control\n  there is a Preferences button that will also show the preferences but in a browser window instead of a separate dialog",
             "title": "Preferences"
         },
         {
-            "location": "/Manual/Manual/#miscellaneous",
+            "location": "/Manual/manual/#miscellaneous",
             "text": "Here you can choose to override the built-in the Firefox autocomplete feature. This option basically disables the\nbuilt-in autocomplete dropdown-lists and the internal formhistory datastore.  When override is enabled the autocomplete dropdown lists are generated by the Form History Control add-on using\nthe formhistory exclusivly maintained by the add-on.",
             "title": "Miscellaneous"
         },
         {
-            "location": "/Manual/Manual/#domain-filter",
+            "location": "/Manual/manual/#domain-filter",
             "text": "If  Allow All  is enabled (the default), the Form History Control add-on will remember form history for all pages.  To exclude certain pages from storing formhistory two options are available, either  blacklist  the domains for sites you\nwish to exclude or  whitelist  only the domains for sites you do wish to remember.   If either the blacklist or whitelist option is enabled the Form History Control icon in the toolbar will reflect the\ncurrent state of saving allowed (green + sign) or saving disallowed (red - sign).  See the Domain Filter in action",
             "title": "Domain Filter"
         },
         {
-            "location": "/Manual/Manual/#field-filter",
+            "location": "/Manual/manual/#field-filter",
             "text": "To prevent storing formhistory for certain fields add the name of the field to the Field Filter list. Standard password type fields are never stored and do not have to be added here.",
             "title": "Field Filter"
         },
         {
-            "location": "/Manual/Manual/#clean-up",
+            "location": "/Manual/manual/#clean-up",
             "text": "Automatic cleanup will periodically (every 15 minutes) remove entries from the formhistory storage if older than the\nset number of days.  It is recommended that you enable this option. If the storage contains a very large number of entries the add-on can\nbecome sluggish (particularly the popdown dialog will be affected).   Depending on the resources of the underlying system try to keep the number of entries below 2500.",
             "title": "Clean-up"
         },
         {
-            "location": "/Manual/Manual/#themes",
+            "location": "/Manual/manual/#themes",
             "text": "In the Display options the theme selector allows you to choose a color theme for the Form Histor6y Control.\nWhen choosing a different theme, the preference dialog is immediately change to reflect the new setting.\nOnly after the  Apply  button is clicked will the new theme be activated for all dialogs.  See Theming in action!",
             "title": "Themes"
         },
         {
-            "location": "/Manual/Manual/#default-theme",
+            "location": "/Manual/manual/#default-theme",
             "text": "This is the Default theme",
             "title": "Default theme"
         },
         {
-            "location": "/Manual/Manual/#dark-theme",
+            "location": "/Manual/manual/#dark-theme",
             "text": "This is the Dark theme",
             "title": "Dark Theme"
         },
         {
-            "location": "/Manual/Manual/#blue-theme",
+            "location": "/Manual/manual/#blue-theme",
             "text": "This is the Blue theme",
             "title": "Blue Theme"
         },
         {
-            "location": "/Manual/Manual/#import-export",
+            "location": "/Manual/manual/#import-export",
             "text": "Exporting lets you save the content of the current collected set of form history items to a single (XML) file.\nImporting reads all form history items from an export file back into your collection.  You can use the Export / Import as a backup mechanism, you can also use it to transfer your collection from one device\nto another.  Import and export is available from the File submenu in the menu-bar of  The main dialog .",
             "title": "Import / Export"
         },
         {
-            "location": "/Manual/Manual/#export",
+            "location": "/Manual/manual/#export",
             "text": "Open the Export dialog from the File submenu in the menu-bar of  The main dialog .   After the Export dialog is opened, activate the Export button. Due to browser safety restrictions the file will not be\nsaved automatically. If the formhistory store is not empty the dialog will display the number of fields it has prepared\nfor export and show a clickable download link.  In order to save the file click on the download link, the browser will then give you the option to either save or open\nthe link. If left-click does not work do a right-click and choose option 'Save link as...' from the menu.     See Exporting entries in action!",
             "title": "Export"
         },
         {
-            "location": "/Manual/Manual/#import",
+            "location": "/Manual/manual/#import",
             "text": "Open the Import dialog from the File submenu in the menu-bar of  The main dialog .   Click the browse button and open a previously saved export file. XML-Files exported from older versions of\nForm History Control are supported.   After choosing the file hit the Import button. Duplicate fields already present will not be imported.\nWhen the import succeeds, the dialog will display the amount of text-fields and editor-fields that have been imported\n(including duplicate fields).  See Importing entries in action!",
             "title": "Import"
         },
         {
-            "location": "/Manual/Manual/#view-edit-entries",
+            "location": "/Manual/manual/#view-edit-entries",
             "text": "By double clicking on a formhistory item in the list or by choosing modify or add from the menu, a dialog will appear\noffering more details to either modify or add various aspects of a formhistory item.",
             "title": "View / Edit entries"
         },
         {
-            "location": "/Manual/Manual/#view-entry",
+            "location": "/Manual/manual/#view-entry",
             "text": "Displays all aspects stored for a particular entry.   Right-clicking will reveal a context-menu offering the option top either copy only the clean text from a value or the\nraw value including any markup information it may contain.  Radio-boxes at the bottom make it possible to render a preview according to different formats like HTML, Markdown or Wiki.    To close the preview deselect the current checked box.",
             "title": "View entry"
         },
         {
-            "location": "/Manual/Manual/#edit-entry",
+            "location": "/Manual/manual/#edit-entry",
             "text": "Displays all aspects stored for a particular entry.\nCnange any value you like,   When multiple items are selected the edit dialog will initially display empty fields and only the count and dates can be changed.\nThe title on top of the dialog will inform you that you are about to change multiple items at once.",
             "title": "Edit entry"
         },

@@ -38,7 +38,7 @@ extra:
 pages:
 - Home: index.md
 - Manual:
-  - Introduction: Manual\Manual.md
+  - Introduction: Manual\manual.md
   - Frequently Asked Questions: Manual\FAQ.md
   - Known Issues: Manual\KnownIssues.md
 - FHC Export: FHCExport.md
