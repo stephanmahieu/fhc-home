@@ -5,6 +5,13 @@ Manage form history entries (search, edit, cleanup, export/import) and easy text
 
 I hope you enjoy this extension.
 
+## Feature requests and feedback
+
+If you have feature request or ideas to make Form History Control even more awesome then please leave your comments
+at the Form History Control blog in the [feature request section](https://formhistory.blogspot.com/2009/05/feature-requests.html).
+
+For feedback or questions about a particular release add your comment to the release in the 
+[releases overwiew](https://formhistory.blogspot.com/search/label/Release) of the Form History Control blog.   
 
 ## Show your appreciation
 Nothing makes me more happy than knowing that this plugin is useful and valuable to you.
