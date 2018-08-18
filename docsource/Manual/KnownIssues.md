@@ -79,4 +79,19 @@ Regarding fixing it, if only one database is corrupted, then you may need to jus
 If your whole IndexedDB engine is corrupted, the only option may be resetting your profile (consider setup Firefox Sync. before).
 
 For information on fixing a corrupted profile see [this article](https://github.com/sienori/Tab-Session-Manager/wiki/IndexedDB-Error#corrupted-file-exists-in-firefoxs-storage)
-by sienori, developer of the Tab-Session-Manager add-on. 
+by sienori, developer of the Tab-Session-Manager add-on.
+
+## Reporting new issues
+
+Please consult the Know Issues and [FAQ](./FAQ/) presented here carefully before creating a new issue,
+your problem may very well be identified earlier. 
+
+New issues can be reported on Github (account required), see [github issues](https://github.com/stephanmahieu/formhistorycontrol-2/issues).
+You may also report issues by adding a comment to the release on the [Form History Control blog](https://formhistory.blogspot.com/search/label/Release)
+or just drop me an e-mail (formhistory@yahoo.com).
+
+When reporting issues please let me know what OS you use. the browser version and the version of the
+Form History Control add-on.
+
+Please do not use the rating system on the Firefox add-ons page to report problems. Reviews that contain Bug reports
+or Support requests are considered inappropriate and will be flagged and removed by Mozilla.
