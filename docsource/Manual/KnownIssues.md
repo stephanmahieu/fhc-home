@@ -28,3 +28,55 @@ You can now delete some of your older entries to reduce the amount of data.
 This issue is fixed in release 2.1.0.0 which will automatically limit the amount of data displayed by the popdown dialog
 and show a warning message when data was discarded from the view. The new version will also provide the ability to
 automatically cleanup history.
+
+## Storage (IndexedDB) Error
+
+IndexedDB error occurs for the following reasons.
+
+- Cookies are disabled
+- Firefox setting is set not to remember history
+- IndexedDB is not enabled in about:config
+- Corrupted file exists in firefox's storage
+
+If any of these apply, IndexedDB can not be used.
+
+### Cookies not enabled
+
+A [firefox bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1406675) prevents an add-on to access the
+internal storage when cookies are disabled. Until this bug is fixed it is necessary to enable cookies in order for
+this add-on to be granted access to internal storage.
+
+To enable cookies open Privacy & Security of Firefox settings, it is necessary to enable:
+**_Accept cookies and site data from websites (recommended)_** 
+
+### Firefox setting is set not to remember the history
+
+Please confirm that firefox setting is set to remember history.
+
+Open Privacy & Security of firefox settings, it is necessary to set History as follows:    
+_Firefox will:_ **_Remember history_**  
+&nbsp;&nbsp;**or**  
+_Firefox will:_  **_Use custom settings for history_**  
+&nbsp;&nbsp;&nbsp;&nbsp;[X] **_Remember my browsing and download history_**  
+&nbsp;&nbsp;&nbsp;&nbsp;[X] **_Remember search and form history_**  
+
+### IndexedDB is not enabled in about:config
+
+Please access about:config and confirm that the value of `dom.indexedDB.enabled` is true.
+If false, change it to true and restart firefox.
+
+### Corrupted file exists in firefox's storage
+
+The cause of corruption generally fall under one of the following reasons (see [bugzilla 944918](https://bugzilla.mozilla.org/show_bug.cgi?id=944918)):
+
+1. running some cleaning or optimizing software, for example CCleaner, BleachBit, Wise Disc Cleaner, ZHP Cleaner, Wisecleaner. Regarding popular CCleaner, reported versions were quite old: 5.03.5128 and 5.28.
+1. running some special (less known) anti-virus or anti-malware software, like Malwarebytes or SUPERAntiSpyware. However only very few people reported this and was not able to reproduce it (but it may be related to data stored in the db, like some URL that is flagged as malware...).
+1. downgrading your Firefox profile - if you execute any Firefox older than 57, then your profile gets instantly corrupted! This is often the reason - users using 56 or ESR versions decides to upgrade to 57+, they see half of their add-ons doesn't exists anymore, so they downgrade back and BAM! Database corrupted.
+1. there are some rare cases when profile gets corrupted during the Firefox upgrade.
+1. few people reported that only database of my add-on was corrupted and other add-ons / pages using IndexedDB were still working (I'm testing this on this page (db log is in bottom left corner): http://mdn.github.io/to-do-notifications/)
+
+Regarding fixing it, if only one database is corrupted, then you may need to just remove specific database (dropping DB using API will fail, so you need to do it manually on your hard drive in profile\storage\default\<folder with db>).
+If your whole IndexedDB engine is corrupted, the only option may be resetting your profile (consider setup Firefox Sync. before).
+
+For information on fixing a corrupted profile see [this article](https://github.com/sienori/Tab-Session-Manager/wiki/IndexedDB-Error#corrupted-file-exists-in-firefoxs-storage)
+by sienori, developer of the Tab-Session-Manager add-on. 
