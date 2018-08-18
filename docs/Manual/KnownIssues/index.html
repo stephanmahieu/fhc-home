@@ -211,7 +211,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../manual/" title="Introduction" class="md-nav__link">
+    <a href="../Manual/" title="Introduction" class="md-nav__link">
       Introduction
     </a>
   </li>
@@ -278,6 +278,54 @@
         <li class="md-nav__item">
   <a href="#progress-spinner-never-stops-spinning" title="Progress spinner never stops spinning" class="md-nav__link">
     Progress spinner never stops spinning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage-indexeddb-error" title="Storage (IndexedDB) Error" class="md-nav__link">
+    Storage (IndexedDB) Error
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cookies-not-enabled" title="Cookies not enabled" class="md-nav__link">
+    Cookies not enabled
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#firefox-setting-is-set-not-to-remember-the-history" title="Firefox setting is set not to remember the history" class="md-nav__link">
+    Firefox setting is set not to remember the history
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indexeddb-is-not-enabled-in-aboutconfig" title="IndexedDB is not enabled in about:config" class="md-nav__link">
+    IndexedDB is not enabled in about:config
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#corrupted-file-exists-in-firefoxs-storage" title="Corrupted file exists in firefox's storage" class="md-nav__link">
+    Corrupted file exists in firefox's storage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reporting-new-issues" title="Reporting new issues" class="md-nav__link">
+    Reporting new issues
   </a>
   
 </li>
@@ -375,6 +423,54 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#storage-indexeddb-error" title="Storage (IndexedDB) Error" class="md-nav__link">
+    Storage (IndexedDB) Error
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cookies-not-enabled" title="Cookies not enabled" class="md-nav__link">
+    Cookies not enabled
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#firefox-setting-is-set-not-to-remember-the-history" title="Firefox setting is set not to remember the history" class="md-nav__link">
+    Firefox setting is set not to remember the history
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indexeddb-is-not-enabled-in-aboutconfig" title="IndexedDB is not enabled in about:config" class="md-nav__link">
+    IndexedDB is not enabled in about:config
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#corrupted-file-exists-in-firefoxs-storage" title="Corrupted file exists in firefox's storage" class="md-nav__link">
+    Corrupted file exists in firefox's storage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reporting-new-issues" title="Reporting new issues" class="md-nav__link">
+    Reporting new issues
+  </a>
+  
+</li>
+      
       
       
       
@@ -413,8 +509,57 @@ depending on the available resources of the underlying system.</p>
 resource limitation and will always show all available formhistory data.
 You can now delete some of your older entries to reduce the amount of data.</p>
 <p>This issue is fixed in release 2.1.0.0 which will automatically limit the amount of data displayed by the popdown dialog
-and show a warning message when data was discarded from the view. The new version will also provide the ability to
-automatically cleanup history.</p>
+as well as the amount of time it may take and show a warning message when data was discarded from the view.
+The new version will also provide the ability to automatically cleanup history to prevent this kind of problem to occur.</p>
+<h2 id="storage-indexeddb-error">Storage (IndexedDB) Error</h2>
+<p>IndexedDB error occurs for the following reasons.</p>
+<ul>
+<li>Cookies are disabled</li>
+<li>Firefox setting is set not to remember history</li>
+<li>IndexedDB is not enabled in about:config</li>
+<li>Corrupted file exists in firefox's storage</li>
+</ul>
+<p>If any of these apply, IndexedDB can not be used.</p>
+<h3 id="cookies-not-enabled">Cookies not enabled</h3>
+<p>A <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1406675">firefox bug</a> prevents an add-on to access the
+internal storage when cookies are disabled. Until this bug is fixed it is necessary to enable cookies in order for
+this add-on to be granted access to internal storage.</p>
+<p>To enable cookies open Privacy &amp; Security of Firefox settings, it is necessary to enable:
+<strong><em>Accept cookies and site data from websites (recommended)</em></strong> </p>
+<h3 id="firefox-setting-is-set-not-to-remember-the-history">Firefox setting is set not to remember the history</h3>
+<p>Please confirm that firefox setting is set to remember history.</p>
+<p>Open Privacy &amp; Security of firefox settings, it is necessary to set History as follows:  <br />
+<em>Firefox will:</em> <strong><em>Remember history</em></strong><br />
+&nbsp;&nbsp;<strong>or</strong><br />
+<em>Firefox will:</em>  <strong><em>Use custom settings for history</em></strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;[X] <strong><em>Remember my browsing and download history</em></strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;[X] <strong><em>Remember search and form history</em></strong>  </p>
+<h3 id="indexeddb-is-not-enabled-in-aboutconfig">IndexedDB is not enabled in about:config</h3>
+<p>Please access about:config and confirm that the value of <code>dom.indexedDB.enabled</code> is true.
+If false, change it to true and restart firefox.</p>
+<h3 id="corrupted-file-exists-in-firefoxs-storage">Corrupted file exists in firefox's storage</h3>
+<p>The cause of corruption generally fall under one of the following reasons (see <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=944918">bugzilla 944918</a>):</p>
+<ol>
+<li>running some cleaning or optimizing software, for example CCleaner, BleachBit, Wise Disc Cleaner, ZHP Cleaner, Wisecleaner. Regarding popular CCleaner, reported versions were quite old: 5.03.5128 and 5.28.</li>
+<li>running some special (less known) anti-virus or anti-malware software, like Malwarebytes or SUPERAntiSpyware. However only very few people reported this and was not able to reproduce it (but it may be related to data stored in the db, like some URL that is flagged as malware...).</li>
+<li>downgrading your Firefox profile - if you execute any Firefox older than 57, then your profile gets instantly corrupted! This is often the reason - users using 56 or ESR versions decides to upgrade to 57+, they see half of their add-ons doesn't exists anymore, so they downgrade back and BAM! Database corrupted.</li>
+<li>there are some rare cases when profile gets corrupted during the Firefox upgrade.</li>
+<li>few people reported that only database of my add-on was corrupted and other add-ons / pages using IndexedDB were still working (I'm testing this on this page (db log is in bottom left corner): http://mdn.github.io/to-do-notifications/)</li>
+</ol>
+<p>Regarding fixing it, if only one database is corrupted, then you may need to just remove specific database (dropping DB using API will fail, so you need to do it manually on your hard drive in profile\storage\default\<folder with db>).
+If your whole IndexedDB engine is corrupted, the only option may be resetting your profile (consider setup Firefox Sync. before).</p>
+<p>For information on fixing a corrupted profile see <a href="https://github.com/sienori/Tab-Session-Manager/wiki/IndexedDB-Error#corrupted-file-exists-in-firefoxs-storage">this article</a>
+by sienori, developer of the Tab-Session-Manager add-on.</p>
+<h2 id="reporting-new-issues">Reporting new issues</h2>
+<p>Please consult the Know Issues and <a href="../FAQ/">FAQ</a> presented here carefully before creating a new issue,
+your problem may very well be identified earlier. </p>
+<p>New issues can be reported on Github (account required), see <a href="https://github.com/stephanmahieu/formhistorycontrol-2/issues">github issues</a>.
+You may also report issues by adding a comment to the release on the <a href="https://formhistory.blogspot.com/search/label/Release">Form History Control blog</a>
+or just drop me an e-mail (formhistory@yahoo.com).</p>
+<p>When reporting issues please let me know what OS you use. the browser version and the version of the
+Form History Control add-on.</p>
+<p>Please do not use the rating system on the Firefox add-ons page to report problems. Reviews that contain Bug reports
+or Support requests are considered inappropriate and will be flagged and removed by Mozilla.</p>
                 
                   
                 
