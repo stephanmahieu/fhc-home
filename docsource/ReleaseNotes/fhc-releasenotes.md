@@ -1,6 +1,6 @@
 # Form History Control - Release Notes
 
-### 2.1.0.0 wip - not released yet
+### 2.1.0.0 August 19, 2018
 - Improved field detection
 - Automatic Cleanup added
 - Disable collecting formhistory for specific sites or fields
