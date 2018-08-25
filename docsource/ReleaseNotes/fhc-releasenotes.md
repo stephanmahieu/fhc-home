@@ -1,5 +1,9 @@
 # Form History Control - Release Notes
 
+### 2.1.0.1 August 25, 2018
+- Previous version was not marked as compatible for All platform. This version is equal to the previous version but now
+uploaded to Mozilla with the correct info.
+
 ### 2.1.0.0 August 19, 2018
 - Improved field detection
 - Automatic Cleanup added
