@@ -128,9 +128,11 @@ current state of saving allowed (green + sign) or saving disallowed (red - sign)
 
 ### Field Filter
 To prevent storing formhistory for certain fields add the name of the field to the Field Filter list.
-_Standard password type fields are never stored and do not have to be added here._ 
+_Standard password type fields are never stored and do not have to be added here._
 
 ![The Preferences](./images/PreferencesFieldfilter.png "Preferences Field Filter")
+
+The field exclusion list is not used during the cleanup process.
 
 ### Clean-up
 Automatic cleanup will periodically (every 15 minutes) remove entries from the formhistory storage if older than the
