@@ -2,14 +2,14 @@
 
 ### 2.1.1.0 _not released yet_
 - Bugfix field detection: child input elements were missing from dynamically added forms  
-- Added configurable Multiline thresholds setting to the Preferences 
+- Added configurable Multiline thresholds settings to the Preferences 
 - Translation added for the age column in the main dialog
-- Minor improvements
+- Layout improvements main dialog:
+  - Use stylish custom scrollbars in main dialog (replaces ugly system scrollbars)
   - Removed label from search box, added placeholder
   - Hide page control in the main dialog when page-size is set to show all
   - Open Help/Release-notes pages in the same window (different tabs)
   - Refresh display after a manual cleanup
-  - Use stylish custom scrollbars in main dialog (replaces the ugly system scrollbar)
 - Improved Chrome compatibility
 
 ### 2.1.0.1 August 25, 2018
