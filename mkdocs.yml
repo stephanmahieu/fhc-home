@@ -34,8 +34,8 @@ extra:
     # - type: linkedin
     #  link: https://linkedin.com/in/stephanm/
 
-# Page structure
-pages:
+# Navigation structure
+nav:
 - Home: index.md
 - Manual:
   - Introduction: Manual\manual.md

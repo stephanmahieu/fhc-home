@@ -1,6 +1,6 @@
 # Form History Control - Release Notes
 
-### 2.1.1.0 _not released yet_
+### 2.2.0.0 August 31, 2018
 - Bugfix field detection: child input elements were missing from dynamically added forms  
 - Added configurable Multiline thresholds settings to the Preferences 
 - Translation added for the age column in the main dialog
