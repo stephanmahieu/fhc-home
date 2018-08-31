@@ -2,12 +2,13 @@
 
 This ia a standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.
 
-In Firefox up to version 57 the internal persistent datastore was based on SQLite, starting with Firefox version 57 that
-was changed to IndexedDB.
+In Firefox up to version 57 the internal persistent data store was based on SQLite, starting with Firefox version 57 that
+data store is no longer accessible for add-ons (neither directly nor via the API), storage facilities for add-ons are
+now based on IndexedDB.
 
 In order to get the formhistory data from old Firefox versions and make it available for the Form History Control plugin
 in newer versions, I developed a standalone application that can read from the SQLite database and create an exportfile
-that can be imported by the Form History Plugin.
+that can be imported by the Form History Plugin into the new data store.
 
 
 ## Requirements
