@@ -246,3 +246,12 @@ Cnange any value you like,
 
 When multiple items are selected the edit dialog will initially display empty fields and only the count and dates can be changed.
 The title on top of the dialog will inform you that you are about to change multiple items at once.
+
+## Show Fields on the current page
+
+The Show fields option discovers all form fields displayed on the current page and adds a label next to each field
+revealing more detailed info when clicked.  
+
+![Show Fields](./images/Showfields.png "Show Fields current page")
+
+This option acts like a toggle, invoke it again to remove the form field info labels.
