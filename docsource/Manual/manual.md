@@ -1,17 +1,16 @@
 # Introduction
 
 ## Why you might need this plugin
-This plugin displays all form data that has been saved by the web browser with options to filter the
-data either by keyword, active page, active field or cleanup criteria. It is furthermore possible to
-sort the data by parameter including form field name, value, date or popularity.
-
 This plugin stores text from editor fields as you type, so you never have to loose your work when
 disaster strikes. Recover your lost work after session timeouts, network failures, browser crashes,
 power failures, and all other things that will destroy the hard work you just put into writing that
 important email, essay or blog post.
 
+Once installed, the plugin can display all form data that has been saved with options to filter the
+data by keywords and type. It is also possible to sort the data by form field name, value, date or popularity.
+
 This plugin lets you easily search the complete history and selectively delete all data you do not wish
-to be stored for eternity.
+to be stored.
 
 ## Installation
 <img style="vertical-align:bottom" src="../../img/firefox-logo-32.png" alt="Firefox" title="Firefox"> **Firefox:**    
