@@ -1,5 +1,9 @@
 # Form History Control - Release Notes
 
+### 2.2.0.3 September 2, 2018
+- Chrome compatible, now FHC is also available in the Chrome Web store
+- Replaced the svg icons in the chrome manifest with png icons
+
 ### 2.2.0.0 August 31, 2018
 - Bugfix field detection: child input elements were missing from dynamically added forms  
 - Added configurable Multiline thresholds settings to the Preferences 
