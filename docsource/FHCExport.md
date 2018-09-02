@@ -1,5 +1,5 @@
+<img align="right" src="../../img/firefox-logo-32.png" alt="Firefox" title="Firefox only">
 # Form History Export
-
 This ia a standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.
 
 In Firefox up to version 57 the internal persistent data store was based on SQLite, starting with Firefox version 57 that

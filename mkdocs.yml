@@ -29,6 +29,8 @@ extra:
       link: https://github.com/stephanmahieu/formhistorycontrol-2
     - type: firefox
       link: https://addons.mozilla.org/firefox/addon/form-history-control?src=github-pages
+    - type: chrome
+      link: https://chrome.google.com/webstore/detail/form-history-control-ii/lpcccgcdjibejkgiaeijbmkpbnbkglkb
     - type: info
       link: https://formhistory.blogspot.com/
     # - type: linkedin

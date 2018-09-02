@@ -22,8 +22,8 @@ So if you want to show your appreciation for all the hard work and you are able 
 the PayPal donate button below.
 
 Another way of showing your appreciation is by rating this add-on on the [Firefox add-on page](https://addons.mozilla.org/firefox/addon/form-history-control/)
+or the [Chrome web store](https://chrome.google.com/webstore/detail/form-history-control-ii/lpcccgcdjibejkgiaeijbmkpbnbkglkb)
 and tell the world what you think of this add-on.   
-
 
 To make a payment with PayPal, you can use your credit card or bank account without the need to open an account. There are no additional costs.
 
