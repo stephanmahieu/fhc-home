@@ -1,4 +1,4 @@
-<img align="right" src="../../img/firefox-logo-32.png" alt="Firefox" title="Firefox only">
+<img align="right" src="../img/firefox-logo.png" alt="Firefox" title="Firefox only">
 # Form History Export
 This ia a standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.
 
