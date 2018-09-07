@@ -239,6 +239,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Manual/Translation/" title="Tranlating FHC" class="md-nav__link">
+      Tranlating FHC
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -431,7 +443,7 @@
                 
                 
                 <p><img align="right" src="../img/firefox-logo.png" alt="Firefox" title="Firefox only"></p>
-<h1 id="form-history-export">Form History Export</h1>
+<h1 id="form-history-export">Form History Export<a class="headerlink" href="#form-history-export" title="Permanent link">&para;</a></h1>
 <p>This ia a standalone Java application for exporting formhistory from Mozilla's (Firefox) SQLite database.</p>
 <p>In Firefox up to version 57 the internal persistent data store was based on SQLite, starting with Firefox version 57 that
 data store is no longer accessible for add-ons (neither directly nor via the API), storage facilities for add-ons are
@@ -439,7 +451,7 @@ now based on IndexedDB.</p>
 <p>In order to get the formhistory data from old Firefox versions and make it available for the Form History Control plugin
 in newer versions, I developed a standalone application that can read from the SQLite database and create an exportfile
 that can be imported by the Form History Plugin into the new data store.</p>
-<h2 id="requirements">Requirements</h2>
+<h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
 <p>This application can be used on any platform for which a Java runtime is available. It requires a Java runtime of at least version 1.8.
 You can check if you already have a Java runtime installed by executing the following command from the commandline:</p>
 <pre><code>java -version
@@ -447,12 +459,12 @@ You can check if you already have a Java runtime installed by executing the foll
 <p>If this command is not recognized you most likely have no Java runtime installed.
 You can find instructions on how to download and install Java from <a href="https://java.com/nl/download/">http://java.com/nl/download/</a>
 or use a package manager provided by your OS.</p>
-<h2 id="download-the-export-application">Download the export application</h2>
+<h2 id="download-the-export-application">Download the export application<a class="headerlink" href="#download-the-export-application" title="Permanent link">&para;</a></h2>
 <p>Download the java application fhcExport-1.0.0.jar from github here: <a href="https://github.com/stephanmahieu/fhc-home/raw/master/downloads/fhcExport-1.0.0.jar">fhcExport-1.0.0.jar</a> .</p>
 <p>Put this file in any directory you like, then open a dosbox or a terminal window and navigate to the directory where you downloaded the file.
 Start the application from the commandline using the -jar option (see the Usage section).</p>
-<h2 id="usage">Usage</h2>
-<h3 id="exporting-data-from-firefoxs-internal-formhistory-store">Exporting data from Firefox's internal formhistory store</h3>
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
+<h3 id="exporting-data-from-firefoxs-internal-formhistory-store">Exporting data from Firefox's internal formhistory store<a class="headerlink" href="#exporting-data-from-firefoxs-internal-formhistory-store" title="Permanent link">&para;</a></h3>
 <p>From the command-line you start this java application using the following command:</p>
 <pre><code>java -jar fhcExport-1.0.0.jar
 </code></pre>
@@ -481,7 +493,7 @@ writing data:               OK
 <p>You should now have an exportfile named formhistory.xml that you can use to import into the new add-on.</p>
 <p><em>The 'reading multilinefields' step might fail, this is completely normal if you never used this add-on before.
 The export will still contain the formhistory for all standard text inputfields Firefox normally stores in its internal database.</em></p>
-<h3 id="importing-the-formhistory-xml-file">Importing the formhistory xml file:</h3>
+<h3 id="importing-the-formhistory-xml-file">Importing the formhistory xml file:<a class="headerlink" href="#importing-the-formhistory-xml-file" title="Permanent link">&para;</a></h3>
 <ul>
 <li>open the Form History Control add-on in Firefox (right-click on the Form History Control icon, choose the first menu item)</li>
 <li>From the dialog you just opened, choose File from the Menu on top, then choose Import: the import dialog will open</li>
@@ -508,7 +520,7 @@ The export will still contain the formhistory for all standard text inputfields 
     <div class="md-footer-nav">
         <nav class="md-footer-nav__inner md-grid">
             
-            <a href="Manual/KnownIssues/" title="Known Issues" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <a href="Manual/Translation/" title="Tranlating FHC" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
                 <div class="md-flex__cell md-flex__cell--shrink">
                     <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
                 </div>
@@ -517,7 +529,7 @@ The export will still contain the formhistory for all standard text inputfields 
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Known Issues
+                Tranlating FHC
               </span>
                 </div>
             </a>
@@ -565,7 +577,7 @@ The export will still contain the formhistory for all standard text inputfields 
     
       <a href="https://chrome.google.com/webstore/detail/form-history-control-ii/lpcccgcdjibejkgiaeijbmkpbnbkglkb" class="md-footer-social__link fa fa-chrome"></a>
     
-      <a href="https://formhistory.blogspot.com/" class="md-footer-social__link fa fa-info"></a>
+      <a href="https://formhistory.blogspot.com/" class="md-footer-social__link fa fa-book"></a>
     
   </div>
 

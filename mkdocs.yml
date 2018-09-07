@@ -22,6 +22,13 @@ theme:
         text: 'Roboto'
         code: 'Roboto Mono'
 
+markdown_extensions:
+    - toc:
+        permalink: true
+    - admonition
+    - pymdownx.details
+
+
 # Customization
 extra:
     social:
@@ -31,7 +38,7 @@ extra:
       link: https://addons.mozilla.org/firefox/addon/form-history-control?src=github-pages
     - type: chrome
       link: https://chrome.google.com/webstore/detail/form-history-control-ii/lpcccgcdjibejkgiaeijbmkpbnbkglkb
-    - type: info
+    - type: book
       link: https://formhistory.blogspot.com/
     # - type: linkedin
     #  link: https://linkedin.com/in/stephanm/
@@ -43,6 +50,7 @@ nav:
   - Introduction: Manual\manual.md
   - Frequently Asked Questions: Manual\FAQ.md
   - Known Issues: Manual\KnownIssues.md
+  - Tranlating FHC: Manual\Translation.md
 - FHC Export: FHCExport.md
 - Release Notes: ReleaseNotes\fhc-releasenotes.md
 - About: about.md
