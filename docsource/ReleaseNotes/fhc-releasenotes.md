@@ -1,5 +1,10 @@
 # Form History Control - Release Notes
 
+### 2.3.0.0 September 21, 2018
+- Shortcut keys added for a variety of actions, configurable via preferences
+- Cleanup added to the drop down menu of the main dialog
+- Some minor layout improvements
+
 ### 2.2.0.3 September 2, 2018
 - Chrome compatible, now FHC is also available in the Chrome Web store
 - Replaced the svg icons in the chrome manifest with png icons

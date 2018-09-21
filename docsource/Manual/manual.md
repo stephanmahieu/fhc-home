@@ -133,6 +133,24 @@ entry should be updated.
 
 ![The Preferences](./images/PreferencesMiscellaneous.png "Preferences Miscellaneous")
 
+### Keyboard
+Shortcut keys can be assigned to a variety of actions (Google Chrome allows at most 4). You can for example assign a
+shortcut key combination to open the Form History Dialog or directly perform an action like filling all
+fields with the most recent entries.
+
+![The Preferences](./images/PreferencesKeyboard.png "Preferences Keyboard")
+
+In order to assign a new key combination to an action click the Modify button (yet only available on Firefox).
+
+![The Preferences](./images/PreferencesKeyboardModify.png "Preferences Keyboard Modify") 
+
+The first modifier key and the last key is mandatory, the second modifier key is optional. From Firefox versions ≥ 63
+all keys become available for the second modifier, earlier version only support the Shift key.
+
+_It is possible that a key combination is already assigned to another add-on or is in use by the browser itself.
+This extension can not detect this situation and it is very likely that another action will be executed instead.
+If that is the case simply choose another key combination._
+
 ### Domain Filter
 If _Allow All_ is enabled (the default), the Form History Control add-on will remember form history for all pages.
 
