@@ -1,5 +1,8 @@
 # Form History Control - Release Notes
 
+### 2.3.0.1 May 19, 2019
+Bugfix: 'Select All' does not respect search filter
+
 ### 2.3.0.0 September 21, 2018
 - Shortcut keys added for a variety of actions, configurable via preferences
 - Cleanup added to the drop down menu of the main dialog
