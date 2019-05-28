@@ -1,5 +1,10 @@
 # Form History Control - Release Notes
 
+### 2.3.1.0 May 28, 2019
+- Update third party libraries
+- Fulfill requirements Mozilla Third Party Library Usage
+    - Previous versions (2.0.3.2, 2.1.0.0, 2.1.0.1, 2.2.0.0, 2.3.0.0, 2.3.0.1) did not meet these requirements and are disabled on mozilla.org
+
 ### 2.3.0.1 May 19, 2019
 - Bugfix: 'Select All' does not respect search filter
 
