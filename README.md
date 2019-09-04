@@ -21,3 +21,9 @@ From the same directory as the mkdocs.yml configuration file:
 
 ## downloads
 This is where binaries are stored that are made available for download.
+
+## mkdocs Installation
+    scoop install python
+    python -m pip install --upgrade pip
+    pip install mkdocs
+    pip install mkdocs-material
