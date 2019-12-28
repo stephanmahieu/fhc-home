@@ -1,5 +1,22 @@
 # Form History Control - Release Notes
 
+### 2.4.0.0 December 28, 2019
+- Additional ISO date format _(yyyy-MM-dd HH:mm:ss)_
+- Additional menu item to copy entry without formatting
+- Advanced preferences only made available in advanced mode _(checkbox)_
+- Re-ordered option categories
+- Additional preferences:
+    - choose fieldtype to retain _(multiline and or single)_ ([#53](https://github.com/stephanmahieu/formhistorycontrol-2/issues/53))
+    - configure update-interval ([#39](https://github.com/stephanmahieu/formhistorycontrol-2/issues/39))
+    - configure mousewheel scroll amount
+    - save formhistory in incognito mode _(default off)_
+    - ability to disable most shortcut keys ([#56](https://github.com/stephanmahieu/formhistorycontrol-2/issues/56))
+- New translations: Russian ([#61](https://github.com/stephanmahieu/formhistorycontrol-2/issues/61)), Korean
+- New Orange theme
+- Bugfix: custom ACE-handler for collecting data from [ACE](https://ace.c9.io/) powered sites
+- Bugfix: icon notification (enabled/disabled) when multiple active windows 
+- Bugfix: context menu creation (issues [#36](https://github.com/stephanmahieu/formhistorycontrol-2/issues/36), [#40](https://github.com/stephanmahieu/formhistorycontrol-2/issues/40), [#57](https://github.com/stephanmahieu/formhistorycontrol-2/issues/57))
+
 ### 2.3.1.0 May 28, 2019
 - Update third party libraries
 - Fulfill requirements Mozilla Third Party Library Usage

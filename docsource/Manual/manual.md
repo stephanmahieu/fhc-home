@@ -108,6 +108,8 @@ page (if enabled in preferences) or toggle the textfield information for the cur
 
 Use the preferences window to manage various options that alter the behaviour of the Form History Control plugin.
 
+Note that there is an advanced options checkbox that unlocks additional settings.
+
 ![The Preferences](./images/Preferences.png "Preferences")
 
 There are multiple ways to open the preferences dialog:
@@ -144,12 +146,25 @@ In order to assign a new key combination to an action click the Modify button (y
 
 ![The Preferences](./images/PreferencesKeyboardModify.png "Preferences Keyboard Modify") 
 
+The checkbox controls whether the shortcut key is active (checked) or disabled (unchecked).
+
 The first modifier key and the last key is mandatory, the second modifier key is optional. From Firefox versions ≥ 63
 all keys become available for the second modifier, earlier version only support the Shift key.
 
 _It is possible that a key combination is already assigned to another add-on or is in use by the browser itself.
 This extension can not detect this situation and it is very likely that another action will be executed instead.
 If that is the case simply choose another key combination._
+
+### Clean-up
+Automatic cleanup will periodically (every 15 minutes) remove entries from the formhistory storage if older than the
+set number of days.
+
+It is recommended that you enable this option. If the storage contains a very large number of entries the add-on can
+become sluggish (particularly the popdown dialog will be affected).
+
+![The Preferences](./images/PreferencesCleanup.png "Preferences Cleanup")
+
+Depending on the resources of the underlying system try to keep the number of entries below 2500.
 
 ### Domain Filter
 If _Allow All_ is enabled (the default), the Form History Control add-on will remember form history for all pages.
@@ -171,17 +186,6 @@ _Standard password type fields are never stored and do not have to be added here
 ![The Preferences](./images/PreferencesFieldfilter.png "Preferences Field Filter")
 
 The field exclusion list is not used during the cleanup process.
-
-### Clean-up
-Automatic cleanup will periodically (every 15 minutes) remove entries from the formhistory storage if older than the
-set number of days.
-
-It is recommended that you enable this option. If the storage contains a very large number of entries the add-on can
-become sluggish (particularly the popdown dialog will be affected).
-
-![The Preferences](./images/PreferencesCleanup.png "Preferences Cleanup")
-
-Depending on the resources of the underlying system try to keep the number of entries below 2500.
 
 ### Themes
 
