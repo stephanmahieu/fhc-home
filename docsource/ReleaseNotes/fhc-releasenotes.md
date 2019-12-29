@@ -1,5 +1,8 @@
 # Form History Control - Release Notes
 
+### 2.4.2.0 December 29, 2019
+- Update Russian translation 
+
 ### 2.4.1.0 December 29, 2019
 - Update Russian translation 
 
