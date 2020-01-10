@@ -3,7 +3,7 @@ site_name: Form History Control (II)
 site_author: S.J. Mahieu
 
 # Copyright
-copyright: Copyright &copy; 2018 Stephan Mahieu
+copyright: Copyright &copy; 2020 Stephan Mahieu
 
 # Configuration
 docs_dir: docsource
@@ -12,8 +12,8 @@ theme:
     name: material
     language: en
     custom_dir: custom_theme
-    # feature:
-    #     tabs: true
+    #feature:
+    #    tabs: true
     logo: assets/images/fhc_icon.svg
     palette:
         primary: 'indigo'
@@ -53,4 +53,5 @@ nav:
   - Tranlating FHC: Manual\Translation.md
 - FHC Export: FHCExport.md
 - Release Notes: ReleaseNotes\fhc-releasenotes.md
+- Privacy Policy: privacy.md
 - About: about.md

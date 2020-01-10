@@ -50,8 +50,14 @@ _To access the complete set of features, open [The main dialog](#the-main-dialog
 
 ![The popdown FHC dialog](./images/Popdown.png "Popdown Dialog")
 
-Right-clicking on an item in the list will show a context menu from which you can delete or modify the item.
-You can also copy the value for the item you clicked to the clipboard.
+Right-clicking in the list will show a context menu from which you can delete, modify or copy an item.
+The menu action wil act upon the selected item or if nothing was selected it will act upon the right-clicked item.  
+Choosing copy will copy the value of the item to the clipboard.
+
+These shortcut keys are also available:  
+`Ctrl+C`: copy formhistory value of first selected item to clipboard  
+`Shift+Ctrl+C`: copy formhistory value without formatting    
+`Del key`: delete selected item(s)
 
 The searchbox on top will let you filter the list on any fieldname, value, type or URL.
 You can search on multiple keywords by separating them with a space.
@@ -68,8 +74,18 @@ The main Dialog provides access to all available features. In addition to the li
 it has an extra menu-bar on top giving access to additional features.
 The main dialog also allows you to perform operations on multiple selected items at once.
 
-Right-clicking on a list item opens a context-menu which allows you to perform some operations on the clicked item only.
-In order to perform an action on multiple selected items at once choose the desired operation from the edit-menu in the
+Right-clicking in the list will show a context menu from which you can delete, modify or copy items.
+The menu action wil act upon all selected items or if nothing was selected it will act upon the item that was right-clicked.    
+Choosing copy will copy the value of the item to the clipboard _(if multiple items are selected only the value of the
+first item will be copied)_.
+
+These shortcut keys are also available:  
+`Ctrl+A`: select all entries    
+`Ctrl+C `: copy formhistory value of first selected item to clipboard  
+`Shift+Ctrl+C`: copy formhistory value without formatting    
+`Del key`: delete selected item(s)
+
+To perform an action on selected items you can also select the desired operation from the edit-menu in the
 menubar on top.
 
 ![The Contextmenu](./images/MainDialogContextmenu.png "Main Dialog Contextmenu")
@@ -186,12 +202,22 @@ wish to exclude or **whitelist** the domains of sites you do wish to remember.
 
 If either the blacklist or whitelist option is enabled the Form History Control icon in the toolbar will reflect the
 current state of saving allowed (green + sign) or saving disallowed (red - sign).
+
+Wildcard `*` may be used at the beginning and/or the end of a host.
+For example filtering on *domain.com will not only match `http://domain.com/page` but also match a subdomain
+like `http://sub.domain.com/page`.
  
 [See the Domain Filter in action](./images/Domainfilter-Animated.gif "Domain Filter in action")
 
 ### Field Filter
 To prevent storing formhistory for certain fields add the name of the field to the Field Filter list.
 _Standard password type fields are never stored and do not have to be added here._
+
+Wildcard `*` may be used at the beginning and/or end of a field.
+To match only fields on a specific host the field may also be prefixed with the host separated by a colon.
+For example to match field `foo` only for host `domain.com` use: `domain.com:foo`.
+Wildcard `*` may also be used at the beginning and/or the end of the host.  
+Special keyword _&lt;empty&gt;_ matches anonymous fields (fields that have no name or id).
 
 ![The Preferences](./images/PreferencesFieldfilter.png "Preferences Field Filter")
 

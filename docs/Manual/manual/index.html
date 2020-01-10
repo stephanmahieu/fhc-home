@@ -513,6 +513,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../privacy/" title="Privacy Policy" class="md-nav__link">
+      Privacy Policy
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
     <a href="../../about/" title="About" class="md-nav__link">
       About
     </a>
@@ -787,8 +799,13 @@ Use the <strong>[+ Add to Chrome]</strong> button and follow the instructions.</
 It offers a basic limited set of features.</p>
 <p><em>To access the complete set of features, open <a href="#the-main-dialog">The main dialog</a> by right clicking the FHC toolbar icon.</em></p>
 <p><img alt="The popdown FHC dialog" src="../images/Popdown.png" title="Popdown Dialog" /></p>
-<p>Right-clicking on an item in the list will show a context menu from which you can delete or modify the item.
-You can also copy the value for the item you clicked to the clipboard.</p>
+<p>Right-clicking in the list will show a context menu from which you can delete, modify or copy an item.
+The menu action wil act upon the selected item or if nothing was selected it will act upon the right-clicked item.<br />
+Choosing copy will copy the value of the item to the clipboard.</p>
+<p>These shortcut keys are also available:<br />
+<code>Ctrl+C</code>: copy formhistory value of first selected item to clipboard<br />
+<code>Shift+Ctrl+C</code>: copy formhistory value without formatting  <br />
+<code>Del key</code>: delete selected item(s)</p>
 <p>The searchbox on top will let you filter the list on any fieldname, value, type or URL.
 You can search on multiple keywords by separating them with a space.</p>
 <p>To view de details for an item in the list without closing the list itself, click the + symbol on the left.
@@ -799,8 +816,16 @@ To see the details in a separate window double-click the item, a <a href="#view-
 <p>The main Dialog provides access to all available features. In addition to the limited popdown dialog
 it has an extra menu-bar on top giving access to additional features.
 The main dialog also allows you to perform operations on multiple selected items at once.</p>
-<p>Right-clicking on a list item opens a context-menu which allows you to perform some operations on the clicked item only.
-In order to perform an action on multiple selected items at once choose the desired operation from the edit-menu in the
+<p>Right-clicking in the list will show a context menu from which you can delete, modify or copy items.
+The menu action wil act upon all selected items or if nothing was selected it will act upon the item that was right-clicked.  <br />
+Choosing copy will copy the value of the item to the clipboard <em>(if multiple items are selected only the value of the
+first item will be copied)</em>.</p>
+<p>These shortcut keys are also available:<br />
+<code>Ctrl+A</code>: select all entries  <br />
+<code>Ctrl+C</code>: copy formhistory value of first selected item to clipboard<br />
+<code>Shift+Ctrl+C</code>: copy formhistory value without formatting  <br />
+<code>Del key</code>: delete selected item(s)</p>
+<p>To perform an action on selected items you can also select the desired operation from the edit-menu in the
 menubar on top.</p>
 <p><img alt="The Contextmenu" src="../images/MainDialogContextmenu.png" title="Main Dialog Contextmenu" /></p>
 <p>The searchbox on top will let you filter the list on any fieldname, value, type or URL.
@@ -880,10 +905,18 @@ wish to exclude or <strong>whitelist</strong> the domains of sites you do wish t
 <p><img alt="The Preferences" src="../images/PreferencesDomainfilter.png" title="Preferences Domain Filter" /></p>
 <p>If either the blacklist or whitelist option is enabled the Form History Control icon in the toolbar will reflect the
 current state of saving allowed (green + sign) or saving disallowed (red - sign).</p>
+<p>Wildcard <code>*</code> may be used at the beginning and/or the end of a host.
+For example filtering on *domain.com will not only match <code>http://domain.com/page</code> but also match a subdomain
+like <code>http://sub.domain.com/page</code>.</p>
 <p><a href="../images/Domainfilter-Animated.gif" title="Domain Filter in action">See the Domain Filter in action</a></p>
 <h3 id="field-filter">Field Filter<a class="headerlink" href="#field-filter" title="Permanent link">&para;</a></h3>
 <p>To prevent storing formhistory for certain fields add the name of the field to the Field Filter list.
 <em>Standard password type fields are never stored and do not have to be added here.</em></p>
+<p>Wildcard <code>*</code> may be used at the beginning and/or end of a field.
+To match only fields on a specific host the field may also be prefixed with the host separated by a colon.
+For example to match field <code>foo</code> only for host <code>domain.com</code> use: <code>domain.com:foo</code>.
+Wildcard <code>*</code> may also be used at the beginning and/or the end of the host.<br />
+Special keyword <em>&lt;empty&gt;</em> matches anonymous fields (fields that have no name or id).</p>
 <p><img alt="The Preferences" src="../images/PreferencesFieldfilter.png" title="Preferences Field Filter" /></p>
 <p>The field exclusion list is not used during the cleanup process.</p>
 <h3 id="themes">Themes<a class="headerlink" href="#themes" title="Permanent link">&para;</a></h3>
@@ -1005,7 +1038,7 @@ revealing more detailed info when clicked.  </p>
             <div class="md-footer-copyright">
                 
                 <div class="md-footer-copyright__highlight">
-                    Copyright &copy; 2018 Stephan Mahieu
+                    Copyright &copy; 2020 Stephan Mahieu
                 </div>
                 
                 powered by

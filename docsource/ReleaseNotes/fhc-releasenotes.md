@@ -1,5 +1,32 @@
 # Form History Control - Release Notes
 
+### 2.5.0.0 January 10, 2020
+- Formhistory popup improvements:
+    - Show/hide individual columns in the formhistory popup ([#78](https://github.com/stephanmahieu/formhistorycontrol-2/issues/78)) 
+    - Additional length column displaying the no. of characters ([#77](https://github.com/stephanmahieu/formhistorycontrol-2/issues/77))
+    - Reduced scrollbar inertia ([#79](https://github.com/stephanmahieu/formhistorycontrol-2/issues/79))
+    - Context menu:
+        - act upon selection if present otherwise upon right-clicked item ([#73](https://github.com/stephanmahieu/formhistorycontrol-2/issues/73)) 
+        - hide context menu when mouse leaves the menu ([#75](https://github.com/stephanmahieu/formhistorycontrol-2/issues/75)) 
+    - Additional standard shortcut keys support:
+        - Ctrl+A selects all items ([#74](https://github.com/stephanmahieu/formhistorycontrol-2/issues/74))
+        - Ctrl+C copy formhistory of first selected item to clipboard 
+        - Shift+Ctrl+C copy formhistory of first selected item to clipboard without formatting
+        - Del key deletes selected item(s)
+    - Fixed: Alt-key shortcuts for main dropdown menu not working
+- Improved highlighting filled-in items ([#70](https://github.com/stephanmahieu/formhistorycontrol-2/issues/70))
+    - Highlighting changes back to normal after 5 seconds 
+    - Improved readability (change background, text color and border-color) 
+- Form History Control context menu item can be turned off conditionally ([#68](https://github.com/stephanmahieu/formhistorycontrol-2/issues/68)) 
+- Domain filter supports `*`-wildcard (match subdomains) ([#71](https://github.com/stephanmahieu/formhistorycontrol-2/issues/71)) 
+- Field filter supports `*`-wildcard, host prefix and _&lt;empty&gt;_ keyword ([#62](https://github.com/stephanmahieu/formhistorycontrol-2/issues/62))
+- Chrome browser now also supports disabling the shortcut keys ([#56](https://github.com/stephanmahieu/formhistorycontrol-2/issues/56))
+- Fixed: writing to clipboard, additional clipboardWrite permission added to manifest
+- Fixed: application icon not showing correct state (active domain filter):
+    - with multiple opened windows
+    - when page in a tab window was updated
+- Fixed: unnecessary scrollbars in pageaction popup   
+
 ### 2.4.2.0 December 29, 2019
 - Update Russian translation 
 
