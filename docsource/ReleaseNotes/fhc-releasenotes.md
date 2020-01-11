@@ -18,8 +18,8 @@
     - Highlighting changes back to normal after 5 seconds 
     - Improved readability (change background, text color and border-color) 
 - Form History Control context menu item can be turned off conditionally ([#68](https://github.com/stephanmahieu/formhistorycontrol-2/issues/68)) 
-- Domain filter supports `*`-wildcard (match subdomains) ([#71](https://github.com/stephanmahieu/formhistorycontrol-2/issues/71)) 
-- Field filter supports `*`-wildcard, host prefix and _&lt;empty&gt;_ keyword ([#62](https://github.com/stephanmahieu/formhistorycontrol-2/issues/62))
+- [Domain filter support](https://stephanmahieu.github.io/fhc-home/Manual/manual/#domain-filter) for `*`-wildcard (match subdomains) ([#71](https://github.com/stephanmahieu/formhistorycontrol-2/issues/71)) 
+- [Field filter support]((https://stephanmahieu.github.io/fhc-home/Manual/manual/#field-filter)) for `*`-wildcard, host and _&lt;empty&gt;_ keyword ([#62](https://github.com/stephanmahieu/formhistorycontrol-2/issues/62))
 - Chrome browser now also supports disabling the shortcut keys ([#56](https://github.com/stephanmahieu/formhistorycontrol-2/issues/56))
 - Fixed: writing to clipboard, additional clipboardWrite permission added to manifest
 - Fixed: application icon not showing correct state (active domain filter):
