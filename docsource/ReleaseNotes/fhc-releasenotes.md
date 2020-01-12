@@ -1,5 +1,12 @@
 # Form History Control - Release Notes
 
+### 2.5.1.0 January 12, 2020
+- Additional dateformatting options ([#96](https://github.com/stephanmahieu/formhistorycontrol-2/issues/96))
+- Small update Russian translation.json ([#91](https://github.com/stephanmahieu/formhistorycontrol-2/issues/91))
+- Hide Select text highlighting older browsers (Ctrl+a) ([#74](https://github.com/stephanmahieu/formhistorycontrol-2/issues/74))
+- Fix: show correct application icon when activetab is refreshed (domainfilter active)
+- Fix: disable leftover debug console log statement
+
 ### 2.5.0.0 January 10, 2020
 - Formhistory popup improvements:
     - Show/hide individual columns in the formhistory popup ([#78](https://github.com/stephanmahieu/formhistorycontrol-2/issues/78)) 
