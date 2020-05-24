@@ -83,7 +83,7 @@ by sienori, developer of the Tab-Session-Manager add-on.
 
 ## Reporting new issues
 
-Please consult the Know Issues and [FAQ](./FAQ/) presented here carefully before creating a new issue,
+Please consult the Known Issues and [FAQ](../FAQ/) presented here carefully before creating a new issue,
 your problem may very well be identified earlier. 
 
 New issues can be reported on Github (account required), see [github issues](https://github.com/stephanmahieu/formhistorycontrol-2/issues).
