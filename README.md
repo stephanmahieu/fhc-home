@@ -23,7 +23,7 @@ From the same directory as the mkdocs.yml configuration file:
 This is where binaries are stored that are made available for download.
 
 ## mkdocs Installation
-    # supported python versions <= 3.7.x
+    # supported python versions 3.5, 3.6, 3.7, 3.8, and pypy3.
     scoop install python
     python -m pip install --upgrade pip
     pip install mkdocs

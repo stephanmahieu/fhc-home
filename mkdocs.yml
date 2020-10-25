@@ -32,15 +32,15 @@ markdown_extensions:
 # Customization
 extra:
     social:
-    - type: github
+    - icon: fontawesome/brands/github
       link: https://github.com/stephanmahieu/formhistorycontrol-2
-    - type: firefox
+    - icon: fontawesome/brands/firefox
       link: https://addons.mozilla.org/firefox/addon/form-history-control?src=github-pages
-    - type: chrome
+    - icon: fontawesome/brands/chrome
       link: https://chrome.google.com/webstore/detail/form-history-control-ii/lpcccgcdjibejkgiaeijbmkpbnbkglkb
-    - type: book
+    - icon: fontawesome/brands/blogger
       link: https://formhistory.blogspot.com/
-    # - type: linkedin
+    # - icon: fontawesome/brands/linkedin
     #  link: https://linkedin.com/in/stephanm/
 
 # Navigation structure
