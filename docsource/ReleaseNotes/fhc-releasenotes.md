@@ -1,5 +1,21 @@
 # Form History Control - Release Notes
 
+### 2.5.3.0 October 25, 2020
+- Larger search input, auto fit placeholder ([#94](https://github.com/stephanmahieu/formhistorycontrol-2/issues/94))
+- Update button state when pasting from menu, autoselect item if exists ([#95](https://github.com/stephanmahieu/formhistorycontrol-2/issues/95))
+- Export now uses the downloads API (downloads permission added)
+- Replace select-column button by icon, add check mark to each column button
+- When text is selected (and highlighted) Ctrl-C will copy the selected text ([#98](https://github.com/stephanmahieu/formhistorycontrol-2/issues/98))
+- Extra option to remember window size and position
+- Extra option for field fill mode
+- Update 3rd party libs: DOMPurify, jQuery, DataTables
+- Known issues:
+    - translations still incomplete for: ru, ko, el
+    - entries list not scaling vertically
+
+### 2.5.1.1 October 25, 2020
+- Security patch: Update DOMPurify 3rd party library to 2.2.0
+
 ### 2.5.1.0 January 12, 2020
 - Additional dateformatting options ([#96](https://github.com/stephanmahieu/formhistorycontrol-2/issues/96))
 - Small update Russian translation.json ([#91](https://github.com/stephanmahieu/formhistorycontrol-2/issues/91))
