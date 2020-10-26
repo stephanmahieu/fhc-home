@@ -1,5 +1,12 @@
 # Form History Control - Release Notes
 
+### 2.5.3.1 October 26, 2020
+Release notes:
+- FIX: table-view not scaling vertically (downgrade tableview plugin)
+- Update Greek translation
+- Known issues:
+    - translations still incomplete for: ru, ko
+    
 ### 2.5.3.0 October 25, 2020
 - Larger search input, auto fit placeholder ([#94](https://github.com/stephanmahieu/formhistorycontrol-2/issues/94))
 - Update button state when pasting from menu, autoselect item if exists ([#95](https://github.com/stephanmahieu/formhistorycontrol-2/issues/95))
