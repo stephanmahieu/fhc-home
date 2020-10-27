@@ -1,7 +1,6 @@
 # Form History Control - Release Notes
 
 ### 2.5.3.1 October 26, 2020
-Release notes:
 - FIX: table-view not scaling vertically (downgrade tableview plugin)
 - Update Greek translation
 - Known issues:
