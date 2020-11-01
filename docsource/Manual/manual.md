@@ -192,6 +192,26 @@ become sluggish (particularly the popdown dialog will be affected).
 
 Depending on the resources of the underlying system try to keep the number of entries below 2500.
 
+
+### Form Fill
+Control how multiline form fields should be filled.
+
+**Field Fill mode options:**
+
+* **Automatic:**  
+insert the formhistory entry directly into the formfield if the entry consists of plain text,
+otherwise copy it to the clipboard instead
+* **Use clipboard:**  
+always copy the formhistory entry to the clipboard
+* **Insert clean text only:**  
+remove any formatting code from the entry and insert the remaining plain text into the formfield
+* **Insert entire (raw) content:**  
+Always insert the entire content into the formfield 
+
+
+
+![The Preferences](./images/PreferencesFormFill.png "Form Fill")
+
 ### Domain Filter
 If _Allow All_ is enabled (the default), the Form History Control add-on will remember form history for all pages.
 

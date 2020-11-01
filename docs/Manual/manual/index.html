@@ -308,6 +308,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#form-fill" class="md-nav__link">
+    Form Fill
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#domain-filter" class="md-nav__link">
     Domain Filter
   </a>
@@ -631,6 +638,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#form-fill" class="md-nav__link">
+    Form Fill
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#domain-filter" class="md-nav__link">
     Domain Filter
   </a>
@@ -895,6 +909,21 @@ set number of days.</p>
 become sluggish (particularly the popdown dialog will be affected).</p>
 <p><img alt="The Preferences" src="../images/PreferencesCleanup.png" title="Preferences Cleanup" /></p>
 <p>Depending on the resources of the underlying system try to keep the number of entries below 2500.</p>
+<h3 id="form-fill">Form Fill<a class="headerlink" href="#form-fill" title="Permanent link">&para;</a></h3>
+<p>Control how multiline form fields should be filled.</p>
+<p><strong>Field Fill mode options:</strong></p>
+<ul>
+<li><strong>Automatic:</strong><br />
+insert the formhistory entry directly into the formfield if the entry consists of plain text,
+otherwise copy it to the clipboard instead</li>
+<li><strong>Use clipboard:</strong><br />
+always copy the formhistory entry to the clipboard</li>
+<li><strong>Insert clean text only:</strong><br />
+remove any formatting code from the entry and insert the remaining plain text into the formfield</li>
+<li><strong>Insert entire (raw) content:</strong><br />
+Always insert the entire content into the formfield </li>
+</ul>
+<p><img alt="The Preferences" src="../images/PreferencesFormFill.png" title="Form Fill" /></p>
 <h3 id="domain-filter">Domain Filter<a class="headerlink" href="#domain-filter" title="Permanent link">&para;</a></h3>
 <p>If <em>Allow All</em> is enabled (the default), the Form History Control add-on will remember form history for all pages.</p>
 <p>To prevent storing history for specific pages you can either <strong>blacklist</strong> the domains for sites you
