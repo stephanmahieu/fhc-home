@@ -1,7 +1,15 @@
 # Form History Control - Release Notes
 
+### 2.5.4.0 November 1, 2020
+- Remove the unused notifications permission and notify method
+- Update Greek and Russian translation
+- Update 3rd party libs DataTables to latest (1.10.21)
+- Fix: small popup resizing with latest DataTables plugin version
+- Fix: do not remember size and position for options window when opened from outside the add-on
+- Fix: always allow manually adding entries
+
 ### 2.5.3.1 October 26, 2020
-- FIX: table-view not scaling vertically (downgrade tableview plugin)
+- Fix: table-view not scaling vertically (downgrade tableview plugin)
 - Update Greek translation
 - Known issues:
     - translations still incomplete for: ru, ko
