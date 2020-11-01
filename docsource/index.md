@@ -5,6 +5,7 @@
 ## Manual
 - [Introduction](Manual/manual.md)
 - [Frequently Asked Questions](Manual/FAQ.md)
+- [Permissions](Manual/Permissions.md)
 - [Known Issues](Manual/KnownIssues.md)
 - [Help translating](Manual/Translation.md)
 ## FHC Export

@@ -49,6 +49,7 @@ nav:
 - Manual:
   - Introduction: Manual\manual.md
   - Frequently Asked Questions: Manual\FAQ.md
+  - Permissions: Manual\Permissions.md
   - Known Issues: Manual\KnownIssues.md
   - Tranlating FHC: Manual\Translation.md
 - FHC Export: FHCExport.md

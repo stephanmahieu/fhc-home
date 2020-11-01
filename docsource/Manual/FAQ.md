@@ -2,12 +2,11 @@
 
 
 ## Data not stored?
-For **Firefox**: If you experience problems regarding form history not being saved, please check if you have
-cookies enabled. This add-on uses indexeddb to store its information and according to this
-issue (see [bugzilla issue 1406675](https://bugzilla.mozilla.org/show_bug.cgi?id=1406675))
-disabling cookies will prevent data being stored. So please check the
-Privacy and Security preferences of the browser and make sure that cookies are accepted or
-Form History Control will not be able to store your data.
+Some websites use advanced techniques and frameworks involving javascript that make it virtually impossible to capture
+user input in a generic way.
+
+On request I might be able to add workarounds for popular websites/frameworks, please submit an issue and let me know for
+which website(s) capturing entries does not work.
 
 ## Empty database?
 This add-on now uses the new mandatory WebExtensions API which no longer offers access to
