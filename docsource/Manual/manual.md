@@ -136,6 +136,25 @@ There are multiple ways to open the preferences dialog:
 - Opening the add-ons page from the browser menu will show all installed add-ons, on the right-side of Form History Control
   there is a Preferences button that will also show the preferences but in a browser window instead of a separate dialog
 
+### Display
+
+**Select a Theme**  
+Select the theme to use. See the [themes](#themes) section for detailed information on how this works.
+
+**Select the data format**  
+Choose the date format, select _automatic_ (default) to use the date format as set on the local system.
+
+**Remember window size and position**  
+When activated the size and position of each opened Form History Control window and dialog will be remembered.
+Use the _**Reset**_ button to reset all sizes and positions back to default.
+
+**Mousewheel scroll amount**  
+This controls how many pixels the list of formhistory will move when using the mousewheel.
+Selecting _automatic_ (default) will approximately scroll the amount of visible entries up or down.
+
+**Context menu**  
+Controls where to provide a right-click context menu for Form History Control.
+
 ### Miscellaneous
 
 **Override Autocomplete**  
