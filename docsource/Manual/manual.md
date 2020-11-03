@@ -296,13 +296,12 @@ Open the Export dialog from the File submenu in the menu-bar of [The main dialog
 
 ![The Contextmenu](./images/Export.png "Export")
 
-After the Export dialog is opened, the form history is immediately made available for export. Due to browser safety
-restrictions the file will not be saved automatically. If the formhistory store is not empty the dialog will display the
-number of fields it has prepared for export and show a clickable download link.
+After clicking the Export button all form history items will be collected and a filebrowser dialog will appear offering
+you to save the file to your local storage.
 
-In order to open or save the file click on the download link, the browser will then give you the option to either save
-or open the data.
-Instead of left-click you can also do a right-click and choose the option 'Save link as...' from the menu.   
+If you use the export function for the first time you may be asked to [grant the additional _Download_ permission](./images/Export-grant.png).
+Allowing the download permission will continue the export, denying the permission will abort the export and you will be
+asked to grant this permission again the next time you try to export.
 
 [See Exporting entries in action!](./images/Export-Animated.gif)
 
