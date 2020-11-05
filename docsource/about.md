@@ -8,10 +8,11 @@ I hope you enjoy this extension.
 ## Feature requests and feedback
 
 If you have feature request or ideas to make Form History Control even more awesome then please leave your comments
-at the Form History Control blog in the [feature request section](https://formhistory.blogspot.com/2009/05/feature-requests.html).
+at the [feature request section](https://formhistory.blogspot.com/2009/05/feature-requests.html).
 
-For feedback or questions about a particular release add your comment to the release in the 
-[releases overwiew](https://formhistory.blogspot.com/search/label/Release) of the Form History Control blog.   
+For feedback, questions or feature requests you can [add an issue on github](https://github.com/stephanmahieu/formhistorycontrol-2/issues)
+or add your comment to the release section in the [releases overwiew](https://formhistory.blogspot.com/search/label/Release)
+of the Form History Control blog.   
 
 ## Show your appreciation
 Nothing makes me more happy than knowing that this plugin is useful and valuable to you.
@@ -25,6 +26,7 @@ Another way of showing your appreciation is by rating this add-on on the [Firefo
 or the [Chrome web store](https://chrome.google.com/webstore/detail/form-history-control-ii/lpcccgcdjibejkgiaeijbmkpbnbkglkb)
 and tell the world what you think of this add-on.   
 
-To make a payment with PayPal, you can use your credit card or bank account without the need to open an account. There are no additional costs.
+To make a payment with PayPal, you can use your credit card or bank account without the need of having a paypal account.
+There are no additional costs involved.
 
 <a href="https://www.paypal.me/formhistorycontrol" title="Paypal donation">![](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)</a>
