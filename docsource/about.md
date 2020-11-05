@@ -26,7 +26,7 @@ Another way of showing your appreciation is by rating this add-on on the [Firefo
 or the [Chrome web store](https://chrome.google.com/webstore/detail/form-history-control-ii/lpcccgcdjibejkgiaeijbmkpbnbkglkb)
 and tell the world what you think of this add-on.   
 
-To make a payment with PayPal, you can use your credit card or bank account without the need of having a paypal account.
-There are no additional costs involved.
+To make a payment with PayPal, you can use your credit card or bank account without the need of having a paypal account
+yourself. There are no additional costs involved.
 
 <a href="https://www.paypal.me/formhistorycontrol" title="Paypal donation">![](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)</a>
