@@ -7,10 +7,10 @@ I hope you enjoy this extension.
 
 ## Feature requests and feedback
 
-If you have feature request or ideas to make Form History Control even more awesome then please leave your comments
-at the [feature request section](https://formhistory.blogspot.com/2009/05/feature-requests.html).
+If you have a feature request or ideas to make Form History Control even more awesome then please leave your comments
+at the [feature request section](https://formhistory.blogspot.com/2009/05/feature-requests.html) on the Form History Blog.
 
-For feedback, questions or feature requests you can [add an issue on github](https://github.com/stephanmahieu/formhistorycontrol-2/issues)
+For bug-reports, feedback, questions or feature requests you can also either [add an issue on github](https://github.com/stephanmahieu/formhistorycontrol-2/issues)
 or add your comment to the release section in the [releases overwiew](https://formhistory.blogspot.com/search/label/Release)
 of the Form History Control blog.   
 
