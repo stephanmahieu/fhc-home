@@ -18,10 +18,10 @@
 ### 2.5.4.0 November 1, 2020
 - Remove the unused notifications permission and notify method
 - Update Greek and Russian translation
-- Update 3rd party libs DataTables to latest (1.10.21)
 - Fix: small popup resizing with latest DataTables plugin version
 - Fix: do not remember size and position for options window when opened from outside the add-on
 - Fix: always allow manually adding entries
+- Update 3rd party libs DataTables to latest (1.10.21)
 - Known issues:
     - translation still incomplete for: ko
 
