@@ -1,5 +1,12 @@
 # Form History Control - Release Notes
 
+### 2.5.5.0 November 14, 2020
+- Downloads permission now optional, requested only when needed
+- Update styling column select (vertical alignment labels)
+- Chrome only: update browser-polyfill library to v.0.6.0
+- Fix: context-menu not always reappearing in form history dialog
+- Fix: fixed bug which prevented storing the state of submitted form elements
+
 ### 2.5.4.0 November 1, 2020
 - Remove the unused notifications permission and notify method
 - Update Greek and Russian translation

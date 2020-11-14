@@ -1,5 +1,7 @@
 ## Which permissions does Form History Control require?
 
+### Required permissions for core functionality:
+
 * **Access your data for all websites**: This is required to discover user input fields and forms. This add-on will 
 store data entered by the user for later retrieval. It is also required for filling in fields upon user action.
 
@@ -9,6 +11,8 @@ with the formhistory data entered on that page.
 * **Input data to the clipboard (_clipboardWrite_)**: This permission allows a user to copy (parts of) 
 formhistory data to the clipboard in order to paste it into a formfield on a website or use it in an external
 application. 
+
+### Optional permissions for added functionality:
 
 * **Download files and read and modify the browser’s download history (_downloads_)**: This permission allows a user to
 export selected formhistory data entries to the users computer.
