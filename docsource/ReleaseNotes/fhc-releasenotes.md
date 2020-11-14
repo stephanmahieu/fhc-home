@@ -1,14 +1,19 @@
 # Form History Control - Release Notes
 
 ### 2.5.5.1 November 14, 2020
-- Update 3rd party lib: DOMPurify
+- Update 3rd party lib DOMPurify to 2.2.2
+- Known issues:
+    - translation still incomplete for: ko
 
 ### 2.5.5.0 November 14, 2020
 - Downloads permission now optional, requested only when needed
 - Update styling column select (vertical alignment labels)
-- Chrome only: update browser-polyfill library to v.0.6.0
 - Fix: context-menu not always reappearing in form history dialog
 - Fix: fixed bug which prevented storing the state of submitted form elements
+- Update 3rd party lib markedjs 1.2.3 (markdown parser and compiler)
+- Chrome only: update browser-polyfill library to v.0.6.0
+- Known issues:
+    - translation still incomplete for: ko
 
 ### 2.5.4.0 November 1, 2020
 - Remove the unused notifications permission and notify method
@@ -17,6 +22,8 @@
 - Fix: small popup resizing with latest DataTables plugin version
 - Fix: do not remember size and position for options window when opened from outside the add-on
 - Fix: always allow manually adding entries
+- Known issues:
+    - translation still incomplete for: ko
 
 ### 2.5.3.1 October 26, 2020
 - Fix: table-view not scaling vertically (downgrade tableview plugin)
