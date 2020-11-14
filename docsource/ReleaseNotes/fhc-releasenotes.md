@@ -1,5 +1,8 @@
 # Form History Control - Release Notes
 
+### 2.5.5.1 November 14, 2020
+- Update 3rd party lib: DOMPurify
+
 ### 2.5.5.0 November 14, 2020
 - Downloads permission now optional, requested only when needed
 - Update styling column select (vertical alignment labels)
