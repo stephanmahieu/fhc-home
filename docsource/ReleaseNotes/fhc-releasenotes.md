@@ -1,5 +1,10 @@
 # Form History Control - Release Notes
 
+### 2.5.6.0 April 11, 2021
+- Fix storing formhistory for wysiwyg editors using iframes like the cke editor ([#103](https://github.com/stephanmahieu/formhistorycontrol-2/issues/103), [#121](https://github.com/stephanmahieu/formhistorycontrol-2/issues/121))
+- Store/restore date and time related html5 fields as text inputs
+- Update 3rd party libs: jQuery (3.6.0), DOMPurify (2.2.7), marked (2.0.2)
+
 ### 2.5.5.1 November 14, 2020
 - Update 3rd party lib DOMPurify to 2.2.2
 - Known issues:
