@@ -1,5 +1,11 @@
 # Form History Control - Release Notes
 
+### 2.5.7.0 October 8, 2023
+- Context menu reworked (use less resources, only show relevant items)
+- Optionally hide address bar icon ([#133](https://github.com/stephanmahieu/formhistorycontrol-2/issues/133))
+- Optionally hide right click context menu
+- Update 3rd party libs: jQuery (3.7.0), DOMPurify (2.4.7), marked (2.1.3), DataTables (1.13.6)
+
 ### 2.5.6.1 April 11, 2021
 - Fix storing formhistory for wysiwyg editors using iframes like the cke editor ([#103](https://github.com/stephanmahieu/formhistorycontrol-2/issues/103), [#121](https://github.com/stephanmahieu/formhistorycontrol-2/issues/121))
 - Store/restore date and time related html5 fields as text inputs
