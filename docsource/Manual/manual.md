@@ -153,7 +153,14 @@ This controls how many pixels the list of formhistory will move when using the m
 Selecting _automatic_ (default) will approximately scroll the amount of visible entries up or down.
 
 **Context menu**  
-Controls where to provide a right-click context menu for Form History Control.
+Controls where to provide a right-click context menu for Form History Control. The option "_Always available_" allows
+the context menu to be opened anywhere on a page by left clicking. The option "_On edit fields only_" will show the
+context menu only when left clicking inside a form field. To completely disable the context menu choose option
+"_No context menu_".
+
+**Address bar icon**  
+Choose here whether to always show the Formhistory control icon in the addressbar or always hide it. The icon
+provides access to the context-menu (right click) or the page-menu (left click) .
 
 ### Miscellaneous
 
