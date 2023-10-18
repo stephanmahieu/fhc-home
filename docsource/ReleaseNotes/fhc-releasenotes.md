@@ -1,5 +1,13 @@
 # Form History Control - Release Notes
 
+### 2.5.7.1 October 13, 2023
+- Add sourcemap files: browser-polyfill, purify (issue [#149](https://github.com/stephanmahieu/formhistorycontrol-2/issues/149), [#104](https://github.com/stephanmahieu/formhistorycontrol-2/issues/104))
+- Disable debug logs and fix error getting host when showing contextmenu (issue [#157](https://github.com/stephanmahieu/formhistorycontrol-2/issues/157))
+- Fix errors being logged when sent messages have no receiver
+- Fix column visibility list not showing active columns
+- Fix error adding MutationObserver to framesets ([#153](https://github.com/stephanmahieu/formhistorycontrol-2/issues/153))
+- Update Russian, Korean and Greek translations ([#113](https://github.com/stephanmahieu/formhistorycontrol-2/issues/113), [#132](https://github.com/stephanmahieu/formhistorycontrol-2/issues/132), [#135](https://github.com/stephanmahieu/formhistorycontrol-2/issues/135), [#158](https://github.com/stephanmahieu/formhistorycontrol-2/issues/158), [#159](https://github.com/stephanmahieu/formhistorycontrol-2/issues/159))
+
 ### 2.5.7.0 October 8, 2023
 - Context menu reworked (use less resources, only show relevant items)
 - Optionally hide address bar icon ([#133](https://github.com/stephanmahieu/formhistorycontrol-2/issues/133))
