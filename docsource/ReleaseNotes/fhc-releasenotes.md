@@ -2,6 +2,9 @@
 
 # Form History Control - Release Notes
 
+### 2.5.7.2
+- Update Korean translation [#160](https://github.com/stephanmahieu/formhistorycontrol-2/issues/160)
+
 ### 2.5.7.1 October 18, 2023
 - Add sourcemap files: browser-polyfill, purify (issue [#149](https://github.com/stephanmahieu/formhistorycontrol-2/issues/149), [#104](https://github.com/stephanmahieu/formhistorycontrol-2/issues/104))
 - Disable debug logs and fix error getting host when showing contextmenu (issue [#157](https://github.com/stephanmahieu/formhistorycontrol-2/issues/157))
