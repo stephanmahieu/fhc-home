@@ -15,7 +15,7 @@
 ## Blog
 - [Form History Control Blog](https://formhistory.blogspot.com/) (external link)
 ## Project
-- [GitHub Project Page](project.md)
+- [Project Page](project.md)
 
 <hr/>
 <a href="https://addons.mozilla.org/firefox/addon/form-history-control/" target="_blank"><img src="./img/AMO-button.png" width="129" height="45"></a>
