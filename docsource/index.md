@@ -1,4 +1,4 @@
-<img align="right" src="./img/fhc-64.png" alt="Form History Control icon" title="Form History Control icon" width="64" height="64">
+<img style="float: right;" src="./img/fhc-64.png" alt="Form History Control icon" title="Form History Control" width="64" height="64">
 
 # Form History Control (II)
 
@@ -14,6 +14,8 @@
 - [Release notes](ReleaseNotes/fhc-releasenotes.md)
 ## Blog
 - [Form History Control Blog](https://formhistory.blogspot.com/) (external link)
+## Project
+- [GitHub Project Page](project.md)
 
 <hr/>
 <a href="https://addons.mozilla.org/firefox/addon/form-history-control/" target="_blank"><img src="./img/AMO-button.png" width="129" height="45"></a>

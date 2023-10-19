@@ -1,3 +1,5 @@
+<img style="float: right;" src="../img/fhc-64.png" alt="Form History Control icon" title="Form History Control" width="64" height="64">
+
 # About Form History Control (II)
 
 ## Description
