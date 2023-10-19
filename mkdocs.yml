@@ -52,7 +52,8 @@ nav:
   - Permissions: Manual\Permissions.md
   - Known Issues: Manual\KnownIssues.md
   - Tranlating FHC: Manual\Translation.md
-- FHC Export: FHCExport.md
 - Release Notes: ReleaseNotes\fhc-releasenotes.md
+- Project Page: project.md
+- FHC Export: FHCExport.md
 - Privacy Policy: privacy.md
 - About: about.md
