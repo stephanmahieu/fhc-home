@@ -2,6 +2,16 @@
 
 # Form History Control - Release Notes
 
+### 2.5.8.0 October 26, 2023
+- Added x-button to filter input on table view ([#125](https://github.com/stephanmahieu/formhistorycontrol-2/issues/125))
+- Increase length filter input ([#124](https://github.com/stephanmahieu/formhistorycontrol-2/issues/124))
+- Show the no of entries to be deleted ([#127](https://github.com/stephanmahieu/formhistorycontrol-2/issues/127))
+- Simulate user interaction when filling fields ([#140](https://github.com/stephanmahieu/formhistorycontrol-2/issues/140))
+- Color tweaks table view ([#129](https://github.com/stephanmahieu/formhistorycontrol-2/issues/129))
+- Update Korean and Russian translation ([#160](https://github.com/stephanmahieu/formhistorycontrol-2/issues/160), [#162](https://github.com/stephanmahieu/formhistorycontrol-2/issues/162))
+- Fix PageAction "Clear the filled fields"
+- Fix occasional error causing spinner displayed infinitely
+
 ### 2.5.7.1 October 18, 2023
 - Add sourcemap files: browser-polyfill, purify (issue [#149](https://github.com/stephanmahieu/formhistorycontrol-2/issues/149), [#104](https://github.com/stephanmahieu/formhistorycontrol-2/issues/104))
 - Disable debug logs and fix error getting host when showing contextmenu (issue [#157](https://github.com/stephanmahieu/formhistorycontrol-2/issues/157))
