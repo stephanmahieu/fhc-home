@@ -2,6 +2,19 @@
 
 # Form History Control - Release Notes
 
+### 3.0.0.0 March 23, 2025 (Chrome)
+- Migrated to Manifest V3, required by Chrome ([#181](https://github.com/stephanmahieu/formhistorycontrol-2/issues/181))
+- Fix Dutch text in the English language menus ([#164](https://github.com/stephanmahieu/formhistorycontrol-2/issues/164))
+- Remove shortcut key management ([#143](https://github.com/stephanmahieu/formhistorycontrol-2/issues/143))
+- Fix 'More...' contextmenu from textfield not opening FHC popup
+- Remove custom scrollbar
+
+### 2.5.8.1 March 23, 2025 (Firefox)
+- Fix Dutch text in the English language menus ([#164](https://github.com/stephanmahieu/formhistorycontrol-2/issues/164))
+- Remove shortcut key management ([#143](https://github.com/stephanmahieu/formhistorycontrol-2/issues/143))
+- Fix 'More...' contextmenu from textfield not opening FHC popup
+- Remove custom scrollbar
+
 ### 2.5.8.0 October 26, 2023
 - Added x-button to filter input on table view ([#125](https://github.com/stephanmahieu/formhistorycontrol-2/issues/125))
 - Increase length filter input ([#124](https://github.com/stephanmahieu/formhistorycontrol-2/issues/124))
