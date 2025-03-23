@@ -192,20 +192,24 @@ Shortcut keys can be assigned to a variety of actions (Google Chrome allows at m
 shortcut key combination to open the Form History Dialog or directly perform an action like filling all
 fields with the most recent entries.
 
+The overview shown is read-only, keyboard shortcuts are now centrally managed from the add-ons page.
+
 ![The Preferences](./images/PreferencesKeyboard.png "Preferences Keyboard")
 
-In order to assign a new key combination to an action click the Modify button (yet only available on Firefox).
+To change keyboard shortcuts you have to use the browsers **extensions page**:
 
-![The Preferences](./images/PreferencesKeyboardModify.png "Preferences Keyboard Modify") 
+#### Firefox shortcuts
 
-The checkbox controls whether the shortcut key is active (checked) or disabled (unchecked).
+1. Click the Firefox hamburger menu icon
+2. click "_Add-ons and themes_" and select "_Extensions_"
+3. Click the Tools for all add-ons cogwheel
+4. Click "_Manage Extension Shortcuts_" in the menu
 
-The first modifier key and the last key is mandatory, the second modifier key is optional. From Firefox versions ≥ 63
-all keys become available for the second modifier, earlier version only support the Shift key.
+#### Chrome shortcuts
 
-_It is possible that a key combination is already assigned to another add-on or is in use by the browser itself.
-This extension can not detect this situation and it is very likely that another action will be executed instead.
-If that is the case simply choose another key combination._
+1. Click the three-dot Menu icon in the top-right corner
+2. Click "_Extensions_" and select "_Manage Extensions_"
+3. On the left, click "_Keyboard shortcuts_" 
 
 ### Clean-up
 Automatic cleanup will periodically (every 15 minutes) remove entries from the formhistory storage if older than the
