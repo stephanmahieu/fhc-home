@@ -2,6 +2,16 @@
 
 # Form History Control - Release Notes
 
+### 3.0.1.0 April 6, 2025 (Chrome)
+- Styling tableview (scrollbar color, column visibility control, no of rows control)
+- Use native html datetime-local type for editing dates in entryview
+- Update 3rd party libs: DOMPurify (3.2.4), marked (3.0.8), DataTables (2.2.2)
+
+### 2.5.9.0 Aprl 6, 2025 (Firefox)
+- Styling tableview (column visibility control, no of rows control)
+- Use native html datetime-local type for editing dates in entryview
+- Update 3rd party libs: DOMPurify (3.2.4), marked (3.0.8), DataTables (2.2.2)
+
 ### 3.0.0.0 March 23, 2025 (Chrome)
 - Migrated to Manifest V3, required by Chrome ([#181](https://github.com/stephanmahieu/formhistorycontrol-2/issues/181))
 - Fix Dutch text in the English language menus ([#164](https://github.com/stephanmahieu/formhistorycontrol-2/issues/164))
