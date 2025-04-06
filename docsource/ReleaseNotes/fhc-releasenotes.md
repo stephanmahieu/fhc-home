@@ -3,12 +3,15 @@
 # Form History Control - Release Notes
 
 ### 3.0.1.1 April 6, 2025 (Chrome)
-- Fix for dataTables styling not applied by using an absolute path
+- Fix for dataTables styling not applied
 
 ### 3.0.1.0 April 6, 2025 (Chrome)
 - Styling tableview (scrollbar color, column visibility control, no of rows control)
 - Use native html datetime-local type for editing dates in entryview
 - Update 3rd party libs: DOMPurify (3.2.4), marked (3.0.8), DataTables (2.2.2)
+
+### 2.5.9.2 Aprl 6, 2025 (Firefox)
+- Fix for dataTables styling not applied, camel casing was the cause not revealing itself on WinOS
 
 ### 2.5.9.1 Aprl 6, 2025 (Firefox)
 - Fix for dataTables styling not applied by using an absolute path
