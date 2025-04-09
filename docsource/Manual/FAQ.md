@@ -53,7 +53,8 @@ Lazarus stems from a different era, from the time when internet pages were mostl
 and relying heavily on scripting as they are today.  
 
 In today's world, Lazarus would not be able to capture the vast majority of multi-line inputs.
-Development of Lazarus was abandoned because their maintainers were no longer willing to put in the time and effort
+
+Development of Lazarus was abandoned because the maintainers were no longer willing to put in the time and effort
 it takes to keep up with modern day web developments.
-If memory serves me right, they even tried to make a paid version but it dien not attract enough backers to make it
+If memory serves me right, they even tried to make a paid version but it did not attract enough backers to make it
 worth their while.
