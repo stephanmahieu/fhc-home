@@ -242,8 +242,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#data-not-stored" class="md-nav__link">
-    Data not stored?
+  <a href="#single-line-entries-lack-a-url" class="md-nav__link">
+    Single line entries lack a URL?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-is-input-not-captured-after-a-fresh-install" class="md-nav__link">
+    Why is input not captured after a fresh install?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-not-stored-for-website-xyz" class="md-nav__link">
+    Data not stored for website xyz?
   </a>
   
 </li>
@@ -251,6 +265,13 @@
         <li class="md-nav__item">
   <a href="#empty-database" class="md-nav__link">
     Empty database?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#old-lazarus-extension-compared-with-fhc" class="md-nav__link">
+    Old Lazarus extension compared with FHC
   </a>
   
 </li>
@@ -387,8 +408,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#data-not-stored" class="md-nav__link">
-    Data not stored?
+  <a href="#single-line-entries-lack-a-url" class="md-nav__link">
+    Single line entries lack a URL?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-is-input-not-captured-after-a-fresh-install" class="md-nav__link">
+    Why is input not captured after a fresh install?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-not-stored-for-website-xyz" class="md-nav__link">
+    Data not stored for website xyz?
   </a>
   
 </li>
@@ -396,6 +431,13 @@
         <li class="md-nav__item">
   <a href="#empty-database" class="md-nav__link">
     Empty database?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#old-lazarus-extension-compared-with-fhc" class="md-nav__link">
+    Old Lazarus extension compared with FHC
   </a>
   
 </li>
@@ -414,7 +456,25 @@
                 
                 
                 <h1 id="frequently-asked-questions-faq">Frequently Asked Questions (FAQ)<a class="headerlink" href="#frequently-asked-questions-faq" title="Permanent link">&para;</a></h1>
-<h2 id="data-not-stored">Data not stored?<a class="headerlink" href="#data-not-stored" title="Permanent link">&para;</a></h2>
+<h2 id="single-line-entries-lack-a-url">Single line entries lack a URL?<a class="headerlink" href="#single-line-entries-lack-a-url" title="Permanent link">&para;</a></h2>
+<p>This behavior is by design. </p>
+<p>Single line fields are very often re-occuring (same name and/or id) on other websites.
+Think of e-mail or address fields.
+These fields are very likely to be used on other websites in similar contexts.
+For suggesting formhistory entries when typing in a single line field or form filling the originating domain or url is
+of little or no use. This is also the way Firefox built-in formhistory stores its data.</p>
+<p>Another reason is that the local storage system is not very well suited for relational data (1 to many) which would
+be required to store multiple url's for a single line field when used by multiple websites.</p>
+<p><em>Older version of this add-on (pre webextension) deduced the domain of a single line fields where it was last used by
+comparing the last used date with the browse-history.</em></p>
+<h2 id="why-is-input-not-captured-after-a-fresh-install">Why is input not captured after a fresh install?<a class="headerlink" href="#why-is-input-not-captured-after-a-fresh-install" title="Permanent link">&para;</a></h2>
+<p>After installing the Form History Control extension for the first time, no input is registered when typing input.</p>
+<p>The reason is that a content script provided by the extension has to be loaded for the webpage in order to
+capture data typed in editor fields. These scripts however are not automatically loaded when an extension is installed
+for the first time.</p>
+<p>So after installing this extension for the very first time, refresh the page or restart the browser. Restarting the
+browser enables form history capturing for all webpages loaded in tabs.  </p>
+<h2 id="data-not-stored-for-website-xyz">Data not stored for website xyz?<a class="headerlink" href="#data-not-stored-for-website-xyz" title="Permanent link">&para;</a></h2>
 <p>Some websites use advanced techniques and frameworks involving javascript that make it virtually impossible to capture
 user input in a generic way.</p>
 <p>On request I might be able to add workarounds for popular websites/frameworks, please submit an issue and let me know for
@@ -431,6 +491,15 @@ formhistory data storage.</p>
    is capable of exporting the formhistory data and make it available for the new version,
    go to the <a href="../../FHCExport/">FHCExport page</a> for more information.</li>
 </ol>
+<h2 id="old-lazarus-extension-compared-with-fhc">Old Lazarus extension compared with FHC<a class="headerlink" href="#old-lazarus-extension-compared-with-fhc" title="Permanent link">&para;</a></h2>
+<p>Many people argue that the old Lazarus extension which also captured form history did a better job.</p>
+<p>Lazarus stems from a different era, from the time when internet pages were mostly static and not dynamically generated
+and relying heavily on scripting as they are today.  </p>
+<p>In today's world, Lazarus would not be able to capture the vast majority of multi-line inputs.
+Development of Lazarus was abandoned because their maintainers were no longer willing to put in the time and effort
+it takes to keep up with modern day web developments.
+If memory serves me right, they even tried to make a paid version but it dien not attract enough backers to make it
+worth their while.</p>
                 
               
               
