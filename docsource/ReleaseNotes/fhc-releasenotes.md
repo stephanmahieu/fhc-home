@@ -2,6 +2,20 @@
 
 # Form History Control - Release Notes
 
+### 3.0.2.0 April 22, 2025 (Chrome)
+- Use deferred rendering for pageaction popup increasing max entry limit
+- Increase multi delete limit for the tableview
+- Options (preferences) extended with save/restore option
+- Small styling improvements
+- Fix import multiline entries
+
+### 2.5.10.0 April 22, 2025 (Firefox)
+- Use deferred rendering for pageaction popup increasing max entry limit
+- Increase multi delete limit for the tableview
+- Options (preferences) extended with save/restore option
+- Small styling improvements
+- Fix import multiline entries
+
 ### 3.0.1.1 April 6, 2025 (Chrome)
 - Styling tableview (scrollbar color, column visibility control, no of rows control)
 - Use native html datetime-local type for editing dates in entryview
@@ -139,7 +153,7 @@
 - Fixed: application icon not showing correct state (active domain filter):
     - with multiple opened windows
     - when page in a tab window was updated
-- Fixed: unnecessary scrollbars in pageaction popup   
+- Fixed: unnecessary scrollbars in pageaction popup
 
 ### 2.4.2.0 December 29, 2019
 - Update Russian translation 
