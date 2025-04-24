@@ -2,17 +2,27 @@
 
 # Form History Control - Release Notes
 
+### 3.0.3.0 April 24, 2025 (Chrome)
+- Add dispatch blur event to simulate user interaction
+- Fix missing translations (2)
+- Fix DataTables i18n file loading error with unsupported locales ([#183](https://github.com/stephanmahieu/formhistorycontrol-2/issues/183))
+
+### 2.5.11.0 April 24, 2025 (Firefox)
+- Add dispatch blur event to simulate user interaction
+- Fix missing translations (2)
+- Fix DataTables i18n file loading error with unsupported locales ([#183](https://github.com/stephanmahieu/formhistorycontrol-2/issues/183))
+
 ### 3.0.2.0 April 22, 2025 (Chrome)
 - Use deferred rendering for pageaction popup increasing max entry limit
 - Increase multi delete limit for the tableview
-- Options (preferences) extended with save/restore option
+- Options (preferences) extended with save/restore option ([#141](https://github.com/stephanmahieu/formhistorycontrol-2/issues/141))
 - Small styling improvements
 - Fix import multiline entries
 
 ### 2.5.10.0 April 22, 2025 (Firefox)
 - Use deferred rendering for pageaction popup increasing max entry limit
 - Increase multi delete limit for the tableview
-- Options (preferences) extended with save/restore option
+- Options (preferences) extended with save/restore option ([#141](https://github.com/stephanmahieu/formhistorycontrol-2/issues/141))
 - Small styling improvements
 - Fix import multiline entries
 
